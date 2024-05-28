@@ -21,11 +21,17 @@ const MainContent = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item xs={4}>
-            <Typography variant="h2">Unleash the power of 3D</Typography>
+          <Grid item xs={5}>
+            <Typography sx={{ mb: 5 }} variant="h3" align="center">
+              Unleash the power of 3D.
+            </Typography>
+            <Typography variant="h6" align="center">
+              More engaging interaction, enhanced user experiences and increased
+              sales for your website.
+            </Typography>
           </Grid>
-          <Grid item xs={8}>
-            <Img src="./images/3DText.jpg" />
+          <Grid item xs={7}>
+            <Img src="./images/3DTextShadow.png" />
           </Grid>
         </Grid>
       </Box>
