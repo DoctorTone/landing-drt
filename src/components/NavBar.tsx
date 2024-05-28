@@ -30,6 +30,8 @@ const NavBar = () => {
         <Toolbar>
           <Box
             sx={{
+              paddingTop: "5px",
+              paddingBottom: "5px",
               display: "flex",
               justifyContent: "flex-start",
               alignItems: "center",
