@@ -21,9 +21,10 @@ const NavBar = () => {
       }}
     >
       <AppBar
+        elevation={0}
         sx={{
-          backgroundColor: "#52477a",
-          borderRadius: "15px",
+          backgroundColor: "#eeeeee",
+          color: "black",
         }}
         position="static"
       >

@@ -31,7 +31,7 @@ const MainContent = () => {
             </Typography>
           </Grid>
           <Grid item xs={7}>
-            <Img src="./images/3DTextShadow.png" />
+            <Img src="./images/3DTextShadow2.png" />
           </Grid>
         </Grid>
       </Box>
