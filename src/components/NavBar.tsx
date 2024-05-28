@@ -4,9 +4,6 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Box } from "@mui/material";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import { Container } from "@mui/material";
 
 const Img = styled("img")({
   display: "block",
@@ -26,7 +23,7 @@ const NavBar = () => {
       <AppBar
         sx={{
           backgroundColor: "#52477a",
-          borderRadius: "10px",
+          borderRadius: "15px",
         }}
         position="static"
       >
@@ -39,6 +36,7 @@ const NavBar = () => {
               gap: "50px",
             }}
           >
+            <Img src="./images/drtLogo.png" />
             <Typography variant="h6">News</Typography>
             <Typography variant="h6">Services</Typography>
             <Typography variant="h6">About</Typography>
