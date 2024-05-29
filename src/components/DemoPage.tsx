@@ -12,28 +12,32 @@ const Img = styled("img")({
   maxHeight: "100%",
 });
 
-const DemoBlock = styled(Paper)({
-padding: "5%",
-borderRadius: "10px"
+const DemoImageBlock = styled(Paper)({
+borderRadius: "20px"
 });
+
+const DemoTextBlock = styled(Paper)({
+  padding: "5%",
+  borderRadius: "10px"
+  });
 
 const DemoPage = () => {
   return (
-    <Box sx={{ mt: 10, pt: 5, backgroundColor: "grey" }}>
+    <Box sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "grey" }}>
       <Container sx={{mb: 4}}>
         <Typography textAlign="center" variant="h3">
           Demos
         </Typography>
         <Grid container spacing={50}>
           <Grid item xs={6}>
-            <DemoBlock elevation={3}>
+            <DemoTextBlock elevation={3}>
             <Typography>One of the most popular applications is to showcase physical products. The 3D technology lets visitors see the items as if they were real. This lets potential customers see all your products up close and can give a better idea of what they are buying before they purchase.</Typography>
-            </DemoBlock>
+            </DemoTextBlock>
           </Grid>
           <Grid item xs={6}>
-            <DemoBlock elevation={3}>
+            <DemoImageBlock elevation={3}>
             <Img src="./images/configurator.jpg" />
-            </DemoBlock>
+            </DemoImageBlock>
           </Grid>
         </Grid>
       </Container>
