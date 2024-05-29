@@ -12,6 +12,10 @@ const Img = styled("img")({
   maxHeight: "100%",
 });
 
+const DemoBlock = styled(Paper)({
+padding: "5%",
+});
+
 const DemoPage = () => {
   return (
     <Box sx={{ mt: 10, pt: 5, backgroundColor: "grey" }}>
@@ -19,6 +23,34 @@ const DemoPage = () => {
         <Typography textAlign="center" variant="h3">
           Demos
         </Typography>
+        <Grid container spacing={50}>
+          <Grid item xs={6}>
+            <DemoBlock elevation={3}>
+            <Typography>One of the most popular applications is to showcase physical products. The 3D technology lets visitors see the items as if they were real. This lets potential customers see all your products up close and can give a better idea of what they are buying before they purchase.</Typography>
+            </DemoBlock>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper elevation={3}>
+            <Img src="./images/drt.jpg" />
+            </Paper>
+          </Grid>
+        </Grid>
+      </Container>
+      <Container sx={{mb: 4}}>
+        <Grid container spacing={50}>
+          <Grid item xs={6}>
+            <Paper elevation={3}>
+            <Img src="./images/drt.jpg" />
+            </Paper>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper elevation={3}>
+            <Typography>One of the most popular applications is to showcase physical products</Typography>
+            </Paper>
+          </Grid>
+        </Grid>
+      </Container>
+      <Container sx={{mb: 4}}>
         <Grid container spacing={50}>
           <Grid item xs={6}>
             <Paper elevation={3}>
@@ -32,7 +64,7 @@ const DemoPage = () => {
           </Grid>
         </Grid>
       </Container>
-      <Container>
+      <Container sx={{mb: 4}}>
         <Grid container spacing={50}>
           <Grid item xs={6}>
             <Paper elevation={3}>
