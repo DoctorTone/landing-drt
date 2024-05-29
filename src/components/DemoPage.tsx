@@ -28,6 +28,9 @@ const DemoPage = () => {
         <Typography sx={{ mb: 3 }} textAlign="center" variant="h3">
           Demos
         </Typography>
+        <Typography sx={{ mb: 3 }} textAlign="center" variant="h5">
+          Seeing is believing...
+        </Typography>
         <Grid container spacing={50} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
