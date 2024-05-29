@@ -25,7 +25,7 @@ const DemoPage = () => {
   return (
     <Box sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "grey" }}>
       <Container sx={{mb: 4}}>
-        <Typography textAlign="center" variant="h3">
+        <Typography sx={{mb: 3}} textAlign="center" variant="h3">
           Demos
         </Typography>
         <Grid container spacing={50}>
