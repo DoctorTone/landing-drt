@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
-import StarIcon from "@mui/icons-material/Star";
 import BoltIcon from "@mui/icons-material/Bolt";
 import { Paper } from "@mui/material";
 
@@ -14,13 +13,9 @@ const Img = styled("img")({
   maxHeight: "100%",
 });
 
-const ProductBlock = styled(Paper)({
-  padding: "1%",
-});
-
 const MainContent = () => {
   return (
-    <Container sx={{ mt: 10, mb: 5 }} maxWidth="xl">
+    <Container sx={{ mt: 3, mb: 5 }} maxWidth="xl">
       <Box>
         <Grid
           container
@@ -68,13 +63,19 @@ const MainContent = () => {
           Train repetitive and hazardous taks
         </Typography>
       </Box>
-      <Box>
+      <Box sx={{ mb: 4 }}>
         <Typography textAlign="center">
-          The application areas are huge. Here are some of the people that we
-          have helped:
+          The application areas are <strong>huge</strong>. I've helped both
+          large and small commercial companies, start-ups and academia and I can
+          help you too.
         </Typography>
       </Box>
-      <Box></Box>
+      {/* <Box sx={{ display: "flex", justifyContent: "center", mb: 3 }}>
+        <Img src="./images/logo_uon.png" />
+        <Img src="./images/artxr_full_XR.png" />
+        <Img src="./images/iosh-logo.png" />
+        <Img src="./images/kp.png" />
+      </Box> */}
     </Container>
   );
 };

@@ -28,7 +28,7 @@ const DemoPage = () => {
         <Typography sx={{ mb: 3 }} textAlign="center" variant="h3">
           Demos
         </Typography>
-        <Grid container spacing={50}>
+        <Grid container spacing={50} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
               <Typography>
@@ -42,25 +42,31 @@ const DemoPage = () => {
           </Grid>
           <Grid item xs={6}>
             <DemoImageBlock elevation={3}>
-              <Img src="./images/configurator.jpg" />
+              <Img
+                src="./images/configurator.jpg"
+                sx={{ borderRadius: "10px" }}
+              />
             </DemoImageBlock>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={50}>
+        <Grid container spacing={50} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
-            <Paper elevation={3}>
-              <Img src="./images/solar.jpg" />
-            </Paper>
+            <DemoImageBlock elevation={3}>
+              <Img src="./images/solar.jpg" sx={{ borderRadius: "10px" }} />
+            </DemoImageBlock>
           </Grid>
           <Grid item xs={6}>
-            <Paper elevation={3}>
+            <DemoTextBlock elevation={3}>
               <Typography>
-                One of the most popular applications is to showcase physical
-                products
+                Not only are 3D graphics ideal for visualisation, they are
+                highly interactive and can simulate all manner of processes.
+                Here we can see a simulation of the solar system that
+                illustrates the relative sizes of all the planets and how
+                quickly they rotate and move in relation to one another.
               </Typography>
-            </Paper>
+            </DemoTextBlock>
           </Grid>
         </Grid>
       </Container>
@@ -77,6 +83,23 @@ const DemoPage = () => {
           <Grid item xs={6}>
             <Paper elevation={3}>
               <Img src="./images/drt.jpg" />
+            </Paper>
+          </Grid>
+        </Grid>
+      </Container>
+      <Container sx={{ mb: 4 }}>
+        <Grid container spacing={50}>
+          <Grid item xs={6}>
+            <Paper elevation={3}>
+              <Img src="./images/drt.jpg" />
+            </Paper>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper elevation={3}>
+              <Typography>
+                One of the most popular applications is to showcase physical
+                products
+              </Typography>
             </Paper>
           </Grid>
         </Grid>
