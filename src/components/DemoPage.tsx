@@ -4,7 +4,6 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
-import Paper from "@mui/material/Paper";
 
 const Img = styled("img")({
   margin: "auto",
