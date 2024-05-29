@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import MainContent from "./components/MainContent";
 import DemoPage from "./components/DemoPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <MainContent />
       <DemoPage />
+      <Footer />
     </>
   );
 }
