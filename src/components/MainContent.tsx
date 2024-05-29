@@ -13,7 +13,7 @@ const Img = styled("img")({
 
 const MainContent = () => {
   return (
-    <Container sx={{ mt: 10 }} maxWidth="xl">
+    <Container sx={{ mt: 10, mb: 5 }} maxWidth="xl">
       <Box>
         <Grid
           container
@@ -34,6 +34,14 @@ const MainContent = () => {
             <Img src="./images/3DTextShadow2.png" />
           </Grid>
         </Grid>
+      </Box>
+      <Box>
+        <Typography>
+          Adopting the latest 3D graphics technlogy on your website can elevate
+          your products or applications to another level.
+        </Typography>
+        <Typography>We have worked with the following:</Typography>
+        <Typography>See what we can do for you.</Typography>
       </Box>
     </Container>
   );
