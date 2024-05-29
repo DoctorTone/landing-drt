@@ -48,13 +48,23 @@ const MainContent = () => {
           your products or applications to another level.
         </Typography>
       </Box>
-      <Box sx={{ display: "flex", flexGrow: 1 }}>
+      <Box sx={{ display: "flex", justifyContent: "center", mb: 3 }}>
         <BoltIcon fontSize="large" color="primary" />
         <Typography variant="h6">Showcase products on your site</Typography>
         <BoltIcon fontSize="large" color="primary" />
         <Typography variant="h6">Build architectural fly-throughs</Typography>
         <BoltIcon fontSize="large" color="primary" />
         <Typography variant="h6">Visualise and share complex data</Typography>
+      </Box>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <BoltIcon fontSize="large" color="primary" />
+        <Typography variant="h6">Simulate other worlds</Typography>
+        <BoltIcon fontSize="large" color="primary" />
+        <Typography variant="h6">Virtual exhibits and experiences</Typography>
+        <BoltIcon fontSize="large" color="primary" />
+        <Typography variant="h6">
+          Train repetitive and hazardous taks
+        </Typography>
       </Box>
     </Container>
   );
