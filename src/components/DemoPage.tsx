@@ -14,6 +14,7 @@ const Img = styled("img")({
 
 const DemoBlock = styled(Paper)({
 padding: "5%",
+borderRadius: "10px"
 });
 
 const DemoPage = () => {
@@ -30,9 +31,9 @@ const DemoPage = () => {
             </DemoBlock>
           </Grid>
           <Grid item xs={6}>
-            <Paper elevation={3}>
-            <Img src="./images/drt.jpg" />
-            </Paper>
+            <DemoBlock elevation={3}>
+            <Img src="./images/configurator.jpg" />
+            </DemoBlock>
           </Grid>
         </Grid>
       </Container>
@@ -40,7 +41,7 @@ const DemoPage = () => {
         <Grid container spacing={50}>
           <Grid item xs={6}>
             <Paper elevation={3}>
-            <Img src="./images/drt.jpg" />
+            <Img src="./images/solar.jpg" />
             </Paper>
           </Grid>
           <Grid item xs={6}>
