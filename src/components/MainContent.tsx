@@ -56,16 +56,25 @@ const MainContent = () => {
         <BoltIcon fontSize="large" color="primary" />
         <Typography variant="h6">Visualise and share complex data</Typography>
       </Box>
-      <Box sx={{ display: "flex", justifyContent: "center" }}>
+      <Box sx={{ display: "flex", justifyContent: "center", mb: 3 }}>
         <BoltIcon fontSize="large" color="primary" />
         <Typography variant="h6">Simulate other worlds</Typography>
         <BoltIcon fontSize="large" color="primary" />
-        <Typography variant="h6">Virtual exhibits and experiences</Typography>
+        <Typography variant="h6">
+          Create virtual exhibits and experiences
+        </Typography>
         <BoltIcon fontSize="large" color="primary" />
         <Typography variant="h6">
           Train repetitive and hazardous taks
         </Typography>
       </Box>
+      <Box>
+        <Typography textAlign="center">
+          The application areas are huge. Here are some of the people that we
+          have helped:
+        </Typography>
+      </Box>
+      <Box></Box>
     </Container>
   );
 };
