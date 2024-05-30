@@ -25,9 +25,13 @@ const DemoTextBlock = styled(Paper)({
 
 const DemoPage = () => {
   return (
-    <Box sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "grey" }}>
+    <Box sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "#aaaaaa" }}>
       <Container sx={{ mb: 4 }}>
-        <Typography sx={{ mb: 1 }} textAlign="center" variant="h3">
+        <Typography
+          sx={{ mb: 1, color: "#333333" }}
+          textAlign="center"
+          variant="h3"
+        >
           Demos
         </Typography>
         <Typography sx={{ mb: 3 }} textAlign="center">
