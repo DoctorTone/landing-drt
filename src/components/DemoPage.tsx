@@ -5,6 +5,7 @@ import Paper from "@mui/material/Paper";
 import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
 
+const GRID_SPACING = 30;
 const Img = styled("img")({
   margin: "auto",
   display: "block",
@@ -25,13 +26,16 @@ const DemoPage = () => {
   return (
     <Box sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "grey" }}>
       <Container sx={{ mb: 4 }}>
-        <Typography sx={{ mb: 3 }} textAlign="center" variant="h3">
+        <Typography sx={{ mb: 1 }} textAlign="center" variant="h3">
           Demos
         </Typography>
-        <Typography sx={{ mb: 3 }} textAlign="center" variant="h5">
+        <Typography sx={{ mb: 1 }} textAlign="center" variant="h5">
           Seeing is believing...
         </Typography>
-        <Grid container spacing={50} sx={{ alignItems: "center" }}>
+        <Typography sx={{ mb: 3 }} textAlign="center">
+          (Click on image to go to demo)
+        </Typography>
+        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
               <Typography>
@@ -54,7 +58,7 @@ const DemoPage = () => {
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={50} sx={{ alignItems: "center" }}>
+        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
             <DemoImageBlock elevation={3}>
               <Img src="./images/solar.jpg" sx={{ borderRadius: "10px" }} />
@@ -74,53 +78,70 @@ const DemoPage = () => {
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={50}>
+        <Grid container spacing={GRID_SPACING}>
           <Grid item xs={6}>
-            <Paper elevation={3}>
+            <DemoTextBlock elevation={3}>
               <Typography>
                 One of the most popular applications is to showcase physical
                 products
               </Typography>
-            </Paper>
+            </DemoTextBlock>
           </Grid>
           <Grid item xs={6}>
-            <Paper elevation={3}>
-              <Img src="./images/drt.jpg" />
-            </Paper>
+            <DemoImageBlock elevation={3}>
+              <Img src="./images/museum2.jpg" sx={{ borderRadius: "10px" }} />
+            </DemoImageBlock>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={50}>
+        <Grid container spacing={GRID_SPACING}>
           <Grid item xs={6}>
-            <Paper elevation={3}>
+            <DemoImageBlock elevation={3}>
               <Img src="./images/drt.jpg" />
-            </Paper>
+            </DemoImageBlock>
           </Grid>
           <Grid item xs={6}>
-            <Paper elevation={3}>
+            <DemoTextBlock elevation={3}>
               <Typography>
                 One of the most popular applications is to showcase physical
                 products
               </Typography>
-            </Paper>
+            </DemoTextBlock>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={50}>
+        <Grid container spacing={GRID_SPACING}>
           <Grid item xs={6}>
-            <Paper elevation={3}>
-              <Img src="./images/drt.jpg" />
-            </Paper>
-          </Grid>
-          <Grid item xs={6}>
-            <Paper elevation={3}>
+            <DemoTextBlock elevation={3}>
               <Typography>
                 One of the most popular applications is to showcase physical
                 products
               </Typography>
-            </Paper>
+            </DemoTextBlock>
+          </Grid>
+          <Grid item xs={6}>
+            <DemoImageBlock elevation={3}>
+              <Img src="./images/drt.jpg" />
+            </DemoImageBlock>
+          </Grid>
+        </Grid>
+      </Container>
+      <Container sx={{ mb: 4 }}>
+        <Grid container spacing={GRID_SPACING}>
+          <Grid item xs={6}>
+            <DemoImageBlock elevation={3}>
+              <Img src="./images/drt.jpg" />
+            </DemoImageBlock>
+          </Grid>
+          <Grid item xs={6}>
+            <DemoTextBlock elevation={3}>
+              <Typography>
+                One of the most popular applications is to showcase physical
+                products
+              </Typography>
+            </DemoTextBlock>
           </Grid>
         </Grid>
       </Container>
