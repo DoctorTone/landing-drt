@@ -40,7 +40,6 @@ const NavBar = () => {
             }}
           >
             <Img src="./images/drtLogo.png" />
-            <Typography variant="h6">News</Typography>
             <Typography variant="h6">Services</Typography>
             <Typography variant="h6">About</Typography>
             <Typography variant="h6">Contact</Typography>

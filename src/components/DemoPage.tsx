@@ -67,11 +67,11 @@ const DemoPage = () => {
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
               <Typography>
-                Not only are 3D graphics ideal for visualisation, they are
-                highly interactive and can simulate all manner of processes.
-                Here we can see a simulation of the solar system that
-                illustrates the relative sizes of all the planets and how
-                quickly they rotate and move in relation to one another.
+                3D graphics are ideal for visualisation, but they are even
+                better when they are used to educate. Simulations of things such
+                as the solar system not only look stunning but they can highight
+                some amazing facts. This simulation shows the relative sizes of
+                the planets and how fast they move through space.
               </Typography>
             </DemoTextBlock>
           </Grid>
@@ -82,8 +82,14 @@ const DemoPage = () => {
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
               <Typography>
-                One of the most popular applications is to showcase physical
-                products
+                Graphics technology allows you to create virtual worlds that can
+                create truly engaging visitor experiences. This could be an
+                alien fantasy world or a representation of a famous place that
+                people all over the world want to visit. The virtual museum here
+                allows visitors to browse and buy stunning pieces of art. They
+                have the added bonus that they can experience the gallery in a
+                virtual reality headset, making the experience even more
+                immersive.
               </Typography>
             </DemoTextBlock>
           </Grid>

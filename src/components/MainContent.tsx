@@ -62,6 +62,8 @@ const MainContent = () => {
         <Typography variant="h6">
           Train repetitive and hazardous taks
         </Typography>
+        <BoltIcon fontSize="large" color="primary" />
+        <Typography variant="h6">Get an edge over your competition</Typography>
       </Box>
       <Box sx={{ mb: 4 }}>
         <Typography textAlign="center">
