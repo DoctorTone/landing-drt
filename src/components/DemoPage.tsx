@@ -12,6 +12,8 @@ const Img = styled("img")({
   display: "block",
   maxWidth: "100%",
   maxHeight: "100%",
+  borderTopLeftRadius: "20px",
+  borderTopRightRadius: "20px",
 });
 
 const DemoImageBlock = styled(Paper)({
@@ -19,8 +21,7 @@ const DemoImageBlock = styled(Paper)({
 });
 
 const DemoTextBlock = styled(Paper)({
-  padding: "5%",
-  borderRadius: "10px",
+  borderRadius: "20px",
 });
 
 const DemoPage = () => {
@@ -37,31 +38,24 @@ const DemoPage = () => {
         <Typography sx={{ mb: 3 }} textAlign="center">
           (Click on the image to see the demo)
         </Typography>
-        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
+        <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={6}>
-            <DemoTextBlock elevation={3}>
-              <Typography>
+            <Paper sx={{ borderRadius: "20px" }}>
+              <Link
+                href="https://drt-software.com/Demos/Configurator/configurator.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Img src="./images/configurator.jpg" />
+              </Link>
+              <Typography sx={{ padding: "5%" }}>
                 One of the most popular applications is to showcase physical
                 products. The 3D technology lets visitors see the items as if
                 they were real. This lets potential customers see all your
                 products up close and can give a better idea of what they are
                 buying before they purchase.
               </Typography>
-            </DemoTextBlock>
-          </Grid>
-          <Grid item xs={6}>
-            <Link
-              href="https://drt-software.com/Demos/Configurator/configurator.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <DemoImageBlock elevation={3}>
-                <Img
-                  src="./images/configurator.jpg"
-                  sx={{ borderRadius: "10px" }}
-                />
-              </DemoImageBlock>
-            </Link>
+            </Paper>
           </Grid>
         </Grid>
       </Container>
