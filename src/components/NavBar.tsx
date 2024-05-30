@@ -51,7 +51,7 @@ const NavBar = () => {
             <Typography
               variant="h6"
               component="a"
-              href="#"
+              href="#about_page"
               sx={{ textDecoration: "none", color: "black" }}
             >
               About
@@ -59,7 +59,7 @@ const NavBar = () => {
             <Typography
               variant="h6"
               component="a"
-              href="#"
+              href="#contact_page"
               sx={{ textDecoration: "none", color: "black" }}
             >
               Contact

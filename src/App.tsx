@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar";
 import MainContent from "./components/MainContent";
 import DemoPage from "./components/DemoPage";
 import Services from "./components/Services";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <MainContent />
       <DemoPage />
       <Services />
+      <About />
       <Footer />
     </>
   );
