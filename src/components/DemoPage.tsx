@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
+import Link from "@mui/material/Link";
 
 const GRID_SPACING = 30;
 const Img = styled("img")({
@@ -48,21 +49,29 @@ const DemoPage = () => {
             </DemoTextBlock>
           </Grid>
           <Grid item xs={6}>
-            <DemoImageBlock elevation={3}>
-              <Img
-                src="./images/configurator.jpg"
-                sx={{ borderRadius: "10px" }}
-              />
-            </DemoImageBlock>
+            <Link
+              href="https://drt-software.com/Demos/Configurator/configurator.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <DemoImageBlock elevation={3}>
+                <Img
+                  src="./images/configurator.jpg"
+                  sx={{ borderRadius: "10px" }}
+                />
+              </DemoImageBlock>
+            </Link>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
-            <DemoImageBlock elevation={3}>
-              <Img src="./images/solar.jpg" sx={{ borderRadius: "10px" }} />
-            </DemoImageBlock>
+            <Link href="#">
+              <DemoImageBlock elevation={3}>
+                <Img src="./images/solar.jpg" sx={{ borderRadius: "10px" }} />
+              </DemoImageBlock>
+            </Link>
           </Grid>
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
@@ -94,18 +103,26 @@ const DemoPage = () => {
             </DemoTextBlock>
           </Grid>
           <Grid item xs={6}>
-            <DemoImageBlock elevation={3}>
-              <Img src="./images/museum.jpg" sx={{ borderRadius: "10px" }} />
-            </DemoImageBlock>
+            <Link href="#">
+              <DemoImageBlock elevation={3}>
+                <Img src="./images/museum.jpg" sx={{ borderRadius: "10px" }} />
+              </DemoImageBlock>
+            </Link>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
-            <DemoImageBlock elevation={3}>
-              <Img src="./images/physics.jpg" sx={{ borderRadius: "10px" }} />
-            </DemoImageBlock>
+            <Link
+              href="https://drt-software.com/Demos/Physics/physics_demo.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <DemoImageBlock elevation={3}>
+                <Img src="./images/physics.jpg" sx={{ borderRadius: "10px" }} />
+              </DemoImageBlock>
+            </Link>
           </Grid>
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
@@ -134,18 +151,29 @@ const DemoPage = () => {
             </DemoTextBlock>
           </Grid>
           <Grid item xs={6}>
-            <DemoImageBlock elevation={3}>
-              <Img src="./images/brain.jpg" sx={{ borderRadius: "10px" }} />
-            </DemoImageBlock>
+            <Link
+              href="https://www.drt-software.com/MedicalViz/medicalViz.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <DemoImageBlock elevation={3}>
+                <Img src="./images/brain.jpg" sx={{ borderRadius: "10px" }} />
+              </DemoImageBlock>
+            </Link>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
-            <DemoImageBlock elevation={3}>
-              <Img src="./images/portfolio.jpg" sx={{ borderRadius: "10px" }} />
-            </DemoImageBlock>
+            <Link href="#">
+              <DemoImageBlock elevation={3}>
+                <Img
+                  src="./images/portfolio.jpg"
+                  sx={{ borderRadius: "10px" }}
+                />
+              </DemoImageBlock>
+            </Link>
           </Grid>
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
