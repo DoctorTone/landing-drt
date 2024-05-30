@@ -98,7 +98,7 @@ const DemoPage = () => {
         <Grid container spacing={GRID_SPACING}>
           <Grid item xs={6}>
             <DemoImageBlock elevation={3}>
-              <Img src="./images/drt.jpg" />
+              <Img src="./images/physics.jpg" sx={{ borderRadius: "10px" }} />
             </DemoImageBlock>
           </Grid>
           <Grid item xs={6}>
@@ -123,7 +123,7 @@ const DemoPage = () => {
           </Grid>
           <Grid item xs={6}>
             <DemoImageBlock elevation={3}>
-              <Img src="./images/drt.jpg" />
+              <Img src="./images/brain.jpg" sx={{ borderRadius: "10px" }} />
             </DemoImageBlock>
           </Grid>
         </Grid>
@@ -132,7 +132,7 @@ const DemoPage = () => {
         <Grid container spacing={GRID_SPACING}>
           <Grid item xs={6}>
             <DemoImageBlock elevation={3}>
-              <Img src="./images/drt.jpg" />
+              <Img src="./images/portfolio.jpg" sx={{ borderRadius: "10px" }} />
             </DemoImageBlock>
           </Grid>
           <Grid item xs={6}>
