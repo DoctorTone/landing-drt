@@ -90,14 +90,14 @@ const Contact = () => {
             <Button variant="contained">Submit</Button>
           </Grid>
         </Grid>
-        <Typography gutterBottom>
+        <Typography sx={{ textAlign: "center" }} gutterBottom>
           Alternatively you can email me at{" "}
           <Link href="mailto:enquiries@drt-software.com">
             enquiries@drt-software.com
           </Link>{" "}
           or call on 0115 8840440.
         </Typography>
-        <Typography>
+        <Typography sx={{ textAlign: "center" }}>
           If you would prefer a face-to-face meeting then please feel free to{" "}
           <Button variant="contained">Schedule a call</Button>
         </Typography>
