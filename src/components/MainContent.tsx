@@ -4,7 +4,6 @@ import Grid from "@mui/material/Grid";
 import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
 import BoltIcon from "@mui/icons-material/Bolt";
-import { Paper } from "@mui/material";
 
 const Img = styled("img")({
   margin: "auto",

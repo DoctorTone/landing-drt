@@ -40,9 +40,30 @@ const NavBar = () => {
             }}
           >
             <Img src="./images/drtLogo.png" />
-            <Typography variant="h6">Services</Typography>
-            <Typography variant="h6">About</Typography>
-            <Typography variant="h6">Contact</Typography>
+            <Typography
+              variant="h6"
+              component="a"
+              href="#services_page"
+              sx={{ textDecoration: "none", color: "black" }}
+            >
+              Services
+            </Typography>
+            <Typography
+              variant="h6"
+              component="a"
+              href="#"
+              sx={{ textDecoration: "none", color: "black" }}
+            >
+              About
+            </Typography>
+            <Typography
+              variant="h6"
+              component="a"
+              href="#"
+              sx={{ textDecoration: "none", color: "black" }}
+            >
+              Contact
+            </Typography>
           </Box>
           <Box sx={{ display: "flex", flexGrow: 0, ml: "auto" }}>
             <Button variant="contained">Schedule call</Button>

@@ -30,9 +30,6 @@ const DemoPage = () => {
         <Typography sx={{ mb: 1 }} textAlign="center" variant="h3">
           Demos
         </Typography>
-        <Typography sx={{ mb: 1 }} textAlign="center" variant="h5">
-          Seeing is believing...
-        </Typography>
         <Typography sx={{ mb: 3 }} textAlign="center">
           (Click on the image to see the demo)
         </Typography>
