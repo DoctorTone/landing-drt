@@ -1,18 +1,18 @@
 import Box from "@mui/material/Box";
 import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
-import CopyrightIcon from '@mui/icons-material/Copyright';
+import CopyrightIcon from "@mui/icons-material/Copyright";
 
 const Footer = () => {
-return (
-    <Box>
-        <Container>
+  return (
+    <Box sx={{ pt: 3, pb: 5, backgroundColor: "#222222", color: "orange" }}>
+      <Container>
         <Typography>
-        <CopyrightIcon /> DRT Software Ltd 2024
+          <CopyrightIcon /> DRT Software Ltd 2024
         </Typography>
-        </Container>
+      </Container>
     </Box>
-)
-}
+  );
+};
 
 export default Footer;

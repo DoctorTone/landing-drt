@@ -64,6 +64,14 @@ const NavBar = () => {
             >
               Contact
             </Typography>
+            <Typography
+              variant="h6"
+              component="a"
+              href="#"
+              sx={{ textDecoration: "none", color: "black" }}
+            >
+              Portfolio
+            </Typography>
           </Box>
           <Box sx={{ display: "flex", flexGrow: 0, ml: "auto" }}>
             <Button variant="contained">Schedule call</Button>
