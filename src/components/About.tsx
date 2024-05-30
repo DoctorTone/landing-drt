@@ -30,7 +30,7 @@ const About = () => {
         </Typography>
         <Typography sx={{ mb: 2 }}>
           I formed DRT in 2017 to provide 3D data visualisation services to a
-          number of companies. Since then I've had the pleasur of working with
+          number of companies. Since then I've had the pleasure of working with
           some amazing people on all sorts of wonderful projects.
         </Typography>
         <Typography sx={{ mb: 2 }}>
