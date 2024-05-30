@@ -33,7 +33,7 @@ const DemoPage = () => {
           Seeing is believing...
         </Typography>
         <Typography sx={{ mb: 3 }} textAlign="center">
-          (Click on image to go to demo)
+          (Click on the image to see the demo)
         </Typography>
         <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
@@ -78,7 +78,7 @@ const DemoPage = () => {
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING}>
+        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
               <Typography>
@@ -95,13 +95,13 @@ const DemoPage = () => {
           </Grid>
           <Grid item xs={6}>
             <DemoImageBlock elevation={3}>
-              <Img src="./images/museum2.jpg" sx={{ borderRadius: "10px" }} />
+              <Img src="./images/museum.jpg" sx={{ borderRadius: "10px" }} />
             </DemoImageBlock>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING}>
+        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
             <DemoImageBlock elevation={3}>
               <Img src="./images/physics.jpg" sx={{ borderRadius: "10px" }} />
@@ -110,20 +110,26 @@ const DemoPage = () => {
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
               <Typography>
-                One of the most popular applications is to showcase physical
-                products
+                Complex physics simulations are now possible in the browser.
+                This opens up all sorts of potential applications, in areas such
+                as engineering, education, gaming, earth sciences, astronomy,
+                etc. This demo showcases realistic physical interactions in a
+                simple game level. Enjoy!
               </Typography>
             </DemoTextBlock>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING}>
+        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
               <Typography>
-                One of the most popular applications is to showcase physical
-                products
+                A classical example of 3D graphics is in the field of medical
+                imaging. This was once only possible on powerful, high-end
+                computers, but can now be achieved in the browser. This
+                application was used to visualise a series of medical images and
+                examine the structure for cancerous tumours.
               </Typography>
             </DemoTextBlock>
           </Grid>
@@ -135,7 +141,7 @@ const DemoPage = () => {
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING}>
+        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
           <Grid item xs={6}>
             <DemoImageBlock elevation={3}>
               <Img src="./images/portfolio.jpg" sx={{ borderRadius: "10px" }} />
@@ -144,8 +150,10 @@ const DemoPage = () => {
           <Grid item xs={6}>
             <DemoTextBlock elevation={3}>
               <Typography>
-                One of the most popular applications is to showcase physical
-                products
+                There is no reason why your whole website cannot be made in 3D!
+                Here is a link to all the demos that I simply didn't have space
+                to put on here. Please keep coming back as they will be updated
+                regularly.
               </Typography>
             </DemoTextBlock>
           </Grid>
