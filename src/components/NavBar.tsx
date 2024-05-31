@@ -74,7 +74,7 @@ const NavBar = () => {
             </Typography>
           </Box>
           <Box sx={{ display: "flex", flexGrow: 0, ml: "auto" }}>
-            <Button variant="contained">Schedule call</Button>
+            <Button variant="contained">Schedule a call</Button>
           </Box>
         </Toolbar>
       </AppBar>
