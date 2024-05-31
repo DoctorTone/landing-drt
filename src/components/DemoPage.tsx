@@ -9,18 +9,10 @@ import Link from "@mui/material/Link";
 const Img = styled("img")({
   margin: "auto",
   display: "block",
-  maxWidth: "100%",
+  width: "100%",
   maxHeight: "100%",
   borderTopLeftRadius: "20px",
   borderTopRightRadius: "20px",
-});
-
-const DemoImageBlock = styled(Paper)({
-  borderRadius: "20px",
-});
-
-const DemoTextBlock = styled(Paper)({
-  borderRadius: "20px",
 });
 
 const DemoPage = () => {
@@ -38,7 +30,7 @@ const DemoPage = () => {
           (Click on the image to see the demo)
         </Typography>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
                 href="https://drt-software.com/Demos/Configurator/configurator.html"
@@ -60,7 +52,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link href="#">
                 <Img src="./images/solar.jpg" />
@@ -78,7 +70,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link href="#">
                 <Img src="./images/museum.jpg" />
@@ -99,7 +91,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link href="#">
                 <Img src="./images/physics.jpg" />
@@ -117,7 +109,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
                 href="https://www.drt-software.com/MedicalViz/medicalViz.html"
@@ -139,7 +131,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link href="#">
                 <Img src="./images/portfolio.jpg" />
