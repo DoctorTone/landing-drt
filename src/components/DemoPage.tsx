@@ -6,7 +6,6 @@ import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
 import Link from "@mui/material/Link";
 
-const GRID_SPACING = 30;
 const Img = styled("img")({
   margin: "auto",
   display: "block",
@@ -60,32 +59,31 @@ const DemoPage = () => {
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
+        <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={6}>
-            <Link href="#">
-              <DemoImageBlock elevation={3}>
-                <Img src="./images/solar.jpg" sx={{ borderRadius: "10px" }} />
-              </DemoImageBlock>
-            </Link>
-          </Grid>
-          <Grid item xs={6}>
-            <DemoTextBlock elevation={3}>
-              <Typography>
+            <Paper sx={{ borderRadius: "20px" }}>
+              <Link href="#">
+                <Img src="./images/solar.jpg" />
+              </Link>
+              <Typography sx={{ padding: "5%" }}>
                 3D graphics are ideal for visualisation, but they are even
                 better when they are used to educate. Simulations of things such
                 as the solar system not only look stunning but they can highight
                 some amazing facts. This simulation shows the relative sizes of
                 the planets and how fast they move through space.
               </Typography>
-            </DemoTextBlock>
+            </Paper>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
+        <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={6}>
-            <DemoTextBlock elevation={3}>
-              <Typography>
+            <Paper sx={{ borderRadius: "20px" }}>
+              <Link href="#">
+                <Img src="./images/museum.jpg" />
+              </Link>
+              <Typography sx={{ padding: "5%" }}>
                 Graphics technology allows you to create virtual worlds that can
                 create truly engaging visitor experiences. This could be an
                 alien fantasy world or a representation of a famous place that
@@ -95,90 +93,64 @@ const DemoPage = () => {
                 virtual reality headset, making the experience even more
                 immersive.
               </Typography>
-            </DemoTextBlock>
-          </Grid>
-          <Grid item xs={6}>
-            <Link href="#">
-              <DemoImageBlock elevation={3}>
-                <Img src="./images/museum.jpg" sx={{ borderRadius: "10px" }} />
-              </DemoImageBlock>
-            </Link>
+            </Paper>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
+        <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={6}>
-            <Link
-              href="https://drt-software.com/Demos/Physics/physics_demo.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <DemoImageBlock elevation={3}>
-                <Img src="./images/physics.jpg" sx={{ borderRadius: "10px" }} />
-              </DemoImageBlock>
-            </Link>
-          </Grid>
-          <Grid item xs={6}>
-            <DemoTextBlock elevation={3}>
-              <Typography>
+            <Paper sx={{ borderRadius: "20px" }}>
+              <Link href="#">
+                <Img src="./images/physics.jpg" />
+              </Link>
+              <Typography sx={{ padding: "5%" }}>
                 Complex physics simulations are now possible in the browser.
                 This opens up all sorts of potential applications, in areas such
                 as engineering, education, gaming, earth sciences, astronomy,
                 etc. This demo showcases realistic physical interactions in a
                 simple game level. Enjoy!
               </Typography>
-            </DemoTextBlock>
+            </Paper>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
+        <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={6}>
-            <DemoTextBlock elevation={3}>
-              <Typography>
+            <Paper sx={{ borderRadius: "20px" }}>
+              <Link
+                href="https://www.drt-software.com/MedicalViz/medicalViz.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Img src="./images/brain.jpg" />
+              </Link>
+              <Typography sx={{ padding: "5%" }}>
                 A classical example of 3D graphics is in the field of medical
                 imaging. This was once only possible on powerful, high-end
                 computers, but can now be achieved in the browser. This
                 application was used to visualise a series of medical images and
                 examine the structure for cancerous tumours.
               </Typography>
-            </DemoTextBlock>
-          </Grid>
-          <Grid item xs={6}>
-            <Link
-              href="https://www.drt-software.com/MedicalViz/medicalViz.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <DemoImageBlock elevation={3}>
-                <Img src="./images/brain.jpg" sx={{ borderRadius: "10px" }} />
-              </DemoImageBlock>
-            </Link>
+            </Paper>
           </Grid>
         </Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
-        <Grid container spacing={GRID_SPACING} sx={{ alignItems: "center" }}>
+        <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={6}>
-            <Link href="#">
-              <DemoImageBlock elevation={3}>
-                <Img
-                  src="./images/portfolio.jpg"
-                  sx={{ borderRadius: "10px" }}
-                />
-              </DemoImageBlock>
-            </Link>
-          </Grid>
-          <Grid item xs={6}>
-            <DemoTextBlock elevation={3}>
-              <Typography>
+            <Paper sx={{ borderRadius: "20px" }}>
+              <Link href="#">
+                <Img src="./images/portfolio.jpg" />
+              </Link>
+              <Typography sx={{ padding: "5%" }}>
                 There is no reason why your whole website cannot be made in 3D!
-                Here is a link to all the demos that I simply didn't have space
-                to put on here. Please keep coming back as they will be updated
-                regularly.
+                This will certainly make your site stand out from your
+                competitors. Here is a link to my complete portfolio. Please
+                keep coming back as they will be updated regularly.
               </Typography>
-            </DemoTextBlock>
+            </Paper>
           </Grid>
         </Grid>
       </Container>
