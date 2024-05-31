@@ -92,7 +92,10 @@ const Contact = () => {
         </Grid>
         <Typography sx={{ textAlign: "center" }} gutterBottom>
           Alternatively you can email me at{" "}
-          <Link href="mailto:enquiries@drt-software.com">
+          <Link
+            sx={{ textDecoration: "none" }}
+            href="mailto:enquiries@drt-software.com"
+          >
             enquiries@drt-software.com
           </Link>{" "}
           or call on 0115 8840440.

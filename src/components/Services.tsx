@@ -49,7 +49,7 @@ const Services = () => {
           would just like to have a conversation about graphics technology in
           general then please get in touch.
         </Typography>
-        <Typography sx={{ mb: 2 }}>
+        <Typography sx={{ mb: 2, textAlign: "center" }}>
           You can use the contact form to send a message or alternatively you
           can email me at{" "}
           <Link
@@ -59,7 +59,7 @@ const Services = () => {
             enquiries@drt-software.com
           </Link>
         </Typography>
-        <Typography>
+        <Typography sx={{ textAlign: "center" }}>
           If you would prefer a face-to-face meeting then please feel free to{" "}
           <Button variant="contained">Schedule a call</Button>
         </Typography>
