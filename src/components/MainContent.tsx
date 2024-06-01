@@ -22,7 +22,7 @@ const MainContent = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item xs={5}>
+          <Grid item xs={12} md={5}>
             <Typography sx={{ mb: 5 }} variant="h3" align="center">
               Unleash the power of 3D.
             </Typography>
@@ -31,7 +31,7 @@ const MainContent = () => {
               sales for your website.
             </Typography>
           </Grid>
-          <Grid item xs={7}>
+          <Grid item xs={12} md={7}>
             <Img src="./images/3DTextShadow2.png" />
           </Grid>
         </Grid>
@@ -42,28 +42,62 @@ const MainContent = () => {
           your products or applications to another level.
         </Typography>
       </Box>
-      <Box sx={{ display: "flex", justifyContent: "center", mb: 3 }}>
-        <BoltIcon fontSize="large" color="primary" />
-        <Typography variant="h6">Showcase products on your site</Typography>
-        <BoltIcon fontSize="large" color="primary" />
-        <Typography variant="h6">Build architectural fly-throughs</Typography>
-        <BoltIcon fontSize="large" color="primary" />
-        <Typography variant="h6">Visualise and share complex data</Typography>
-      </Box>
-      <Box sx={{ display: "flex", justifyContent: "center", mb: 3 }}>
-        <BoltIcon fontSize="large" color="primary" />
-        <Typography variant="h6">Simulate other worlds</Typography>
-        <BoltIcon fontSize="large" color="primary" />
-        <Typography variant="h6">
-          Create virtual exhibits and experiences
-        </Typography>
-        <BoltIcon fontSize="large" color="primary" />
-        <Typography variant="h6">
-          Train repetitive and hazardous taks
-        </Typography>
-        <BoltIcon fontSize="large" color="primary" />
-        <Typography variant="h6">Get an edge over your competition</Typography>
-      </Box>
+      <Grid container>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">Showcase products on your site</Typography>
+          </Box>
+        </Grid>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">
+              Build architectural fly-throughs
+            </Typography>
+          </Box>
+        </Grid>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">
+              Visualise and share complex data
+            </Typography>
+          </Box>
+        </Grid>
+      </Grid>
+      <Grid container>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">Simulate other worlds</Typography>
+          </Box>
+        </Grid>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">
+              Create virtual exhibits and experiences
+            </Typography>
+          </Box>
+        </Grid>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">
+              Train repetitive and hazardous taks
+            </Typography>
+          </Box>
+        </Grid>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">
+              Get an edge over your competition
+            </Typography>
+          </Box>
+        </Grid>
+      </Grid>
       <Box sx={{ mb: 4 }}>
         <Typography textAlign="center">
           The application areas are <strong>huge</strong>. I've helped both

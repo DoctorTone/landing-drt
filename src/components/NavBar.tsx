@@ -31,6 +31,7 @@ const NavBar = () => {
   return (
     <Box
       sx={{
+        paddingTop: 2,
         marginLeft: 5,
         marginRight: 5,
         display: "flex",
