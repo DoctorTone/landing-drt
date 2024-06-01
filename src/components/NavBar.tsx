@@ -1,3 +1,4 @@
+import { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import { styled } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
@@ -6,6 +7,8 @@ import Button from "@mui/material/Button";
 import { Box } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
 
 const Img = styled("img")({
   display: "block",
@@ -14,7 +17,16 @@ const Img = styled("img")({
 });
 
 const NavBar = () => {
-  const handleOpenNavMenu = () => {};
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+
+  const handleOpenNavMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+  const open = Boolean(anchorEl);
 
   return (
     <Box
@@ -46,6 +58,20 @@ const NavBar = () => {
             >
               <MenuIcon />
             </IconButton>
+            <Menu
+              id="basic-menu"
+              anchorEl={anchorEl}
+              open={open}
+              onClose={handleClose}
+              MenuListProps={{
+                "aria-labelledby": "basic-button",
+              }}
+            >
+              <MenuItem onClick={handleClose}>Services</MenuItem>
+              <MenuItem onClick={handleClose}>About</MenuItem>
+              <MenuItem onClick={handleClose}>Contact</MenuItem>
+              <MenuItem onClick={handleClose}>Portfolio</MenuItem>
+            </Menu>
           </Box>
           <Box
             sx={{
