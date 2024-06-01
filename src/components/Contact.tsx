@@ -23,7 +23,7 @@ const Contact = () => {
         </Typography>
         <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
           <Grid item xs={1}></Grid>
-          <Grid item xs={1}>
+          <Grid item xs={3}>
             <Typography>Name</Typography>
           </Grid>
           <Grid item xs={8}>
@@ -38,7 +38,7 @@ const Contact = () => {
         </Grid>
         <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
           <Grid item xs={1}></Grid>
-          <Grid item xs={1}>
+          <Grid item xs={3}>
             <Typography>Email</Typography>
           </Grid>
           <Grid item xs={8}>
@@ -54,7 +54,7 @@ const Contact = () => {
         </Grid>
         <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
           <Grid item xs={1}></Grid>
-          <Grid item xs={1}>
+          <Grid item xs={3}>
             <Typography>Phone</Typography>
           </Grid>
           <Grid item xs={8}>
@@ -69,7 +69,7 @@ const Contact = () => {
         </Grid>
         <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
           <Grid item xs={1}></Grid>
-          <Grid item xs={1}>
+          <Grid item xs={3}>
             <Typography>Message</Typography>
           </Grid>
           <Grid item xs={8}>
