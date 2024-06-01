@@ -4,6 +4,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Box } from "@mui/material";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Img = styled("img")({
   display: "block",
@@ -12,6 +14,8 @@ const Img = styled("img")({
 });
 
 const NavBar = () => {
+  const handleOpenNavMenu = () => {};
+
   return (
     <Box
       sx={{
@@ -28,12 +32,26 @@ const NavBar = () => {
         }}
         position="static"
       >
-        <Toolbar>
+        <Toolbar disableGutters>
+          <Box sx={{ display: { xs: "flex", md: "none" } }}>
+            <Img src="./images/drtLogo.png" />
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+              sx={{ ml: 2 }}
+            >
+              <MenuIcon />
+            </IconButton>
+          </Box>
           <Box
             sx={{
               paddingTop: "5px",
               paddingBottom: "5px",
-              display: "flex",
+              display: { xs: "none", md: "flex" },
               justifyContent: "flex-start",
               alignItems: "center",
               gap: "50px",
@@ -74,7 +92,7 @@ const NavBar = () => {
             </Typography>
           </Box>
           <Box sx={{ display: "flex", flexGrow: 0, ml: "auto" }}>
-            <Button variant="contained">Schedule a call</Button>
+            <Button variant="contained">Schedule call</Button>
           </Box>
         </Toolbar>
       </AppBar>
