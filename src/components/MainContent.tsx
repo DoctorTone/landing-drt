@@ -53,24 +53,8 @@ const MainContent = () => {
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
-              Build architectural fly-throughs
-            </Typography>
-          </Box>
-        </Grid>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
-          <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">
               Visualise and share complex data
             </Typography>
-          </Box>
-        </Grid>
-      </Grid>
-      <Grid container>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
-          <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">Simulate other worlds</Typography>
           </Box>
         </Grid>
         <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
@@ -81,6 +65,30 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">Simulate other worlds</Typography>
+          </Box>
+        </Grid>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">
+              Build architectural fly-throughs
+            </Typography>
+          </Box>
+        </Grid>
+        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+          <Box sx={{ display: "flex" }}>
+            <BoltIcon fontSize="large" color="primary" />
+            <Typography variant="h6">
+              Increased immersion with virtual reality
+            </Typography>
+          </Box>
+        </Grid>
+      </Grid>
+      <Grid container>
         <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
@@ -98,7 +106,7 @@ const MainContent = () => {
           </Box>
         </Grid>
       </Grid>
-      <Box sx={{ mb: 4 }}>
+      <Box sx={{ mt: 2, mb: 4 }}>
         <Typography textAlign="center">
           The application areas are <strong>huge</strong>. I've helped both
           large and small commercial companies, start-ups and academia and I can
