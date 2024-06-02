@@ -112,7 +112,8 @@ const NavBar = () => {
             <Typography
               variant="h6"
               component="a"
-              href="#"
+              href="https://drt-software.com/Portfolio/portfolio.html"
+              target="_blank"
               sx={{ textDecoration: "none", color: "black" }}
             >
               Portfolio
