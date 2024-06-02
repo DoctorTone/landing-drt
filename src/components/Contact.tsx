@@ -23,10 +23,10 @@ const Contact = () => {
         </Typography>
         <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
           <Grid item xs={1}></Grid>
-          <Grid item xs={3}>
+          <Grid item xs={3} md={1}>
             <Typography>Name</Typography>
           </Grid>
-          <Grid item xs={8}>
+          <Grid item xs={10}>
             <TextField
               fullWidth
               required
