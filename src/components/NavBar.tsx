@@ -55,7 +55,7 @@ const NavBar = () => {
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
-              sx={{ ml: 2 }}
+              sx={{ ml: 1 }}
             >
               <MenuIcon />
             </IconButton>
@@ -64,9 +64,6 @@ const NavBar = () => {
               anchorEl={anchorEl}
               open={open}
               onClose={handleClose}
-              MenuListProps={{
-                "aria-labelledby": "basic-button",
-              }}
             >
               <MenuItem onClick={handleClose}>Services</MenuItem>
               <MenuItem onClick={handleClose}>About</MenuItem>
@@ -119,7 +116,7 @@ const NavBar = () => {
               Portfolio
             </Typography>
           </Box>
-          <Box sx={{ display: "flex", flexGrow: 0, ml: "auto" }}>
+          <Box sx={{ display: "flex", ml: "auto" }}>
             <Button variant="contained">Schedule call</Button>
           </Box>
         </Toolbar>

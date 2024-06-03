@@ -42,22 +42,20 @@ const MainContent = () => {
           your products or applications to another level.
         </Typography>
       </Box>
-      <Grid container sx={{ ml: "10%" }}>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+      <Grid container sx={{ ml: { xs: 0, md: "10%" } }}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">Showcase products on your site</Typography>
           </Box>
         </Grid>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">
-              Visualise and share complex data
-            </Typography>
+            <Typography variant="h6">Visualise and share data</Typography>
           </Box>
         </Grid>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
@@ -65,15 +63,15 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">Simulate other worlds</Typography>
           </Box>
         </Grid>
       </Grid>
-      <Grid container sx={{ ml: "10%" }}>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+      <Grid container sx={{ ml: { xs: 0, md: "10%" } }}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
@@ -81,7 +79,7 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
@@ -89,20 +87,18 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
-              Train repetitive and hazardous taks
+              Train repetitive/hazardous taks
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">
-              Get an edge over your competition
-            </Typography>
+            <Typography variant="h6">Gain a competitive edge</Typography>
           </Box>
         </Grid>
       </Grid>
