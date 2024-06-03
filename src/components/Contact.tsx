@@ -53,7 +53,7 @@ const Contact = () => {
           />
         </Box>
         <Box sx={{ margin: "0 5% 2% 5%" }}>
-          <Typography>Let me know what you want to talk about</Typography>
+          <Typography>What can I help you with?</Typography>
           <TextField
             fullWidth
             required
