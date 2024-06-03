@@ -42,7 +42,7 @@ const MainContent = () => {
           your products or applications to another level.
         </Typography>
       </Box>
-      <Grid container>
+      <Grid container sx={{ ml: "10%" }}>
         <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
@@ -71,6 +71,8 @@ const MainContent = () => {
             <Typography variant="h6">Simulate other worlds</Typography>
           </Box>
         </Grid>
+      </Grid>
+      <Grid container sx={{ ml: "10%" }}>
         <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
@@ -87,8 +89,6 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
-      </Grid>
-      <Grid container>
         <Grid item xs={10} md={6} sx={{ ml: { xs: "10%", md: 0 } }}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
