@@ -21,69 +21,49 @@ const Contact = () => {
         <Typography textAlign="center" sx={{ mb: 2 }}>
           I aim to respond to messages within one working day.
         </Typography>
-        <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
-          <Grid item xs={1}></Grid>
-          <Grid item xs={3} md={1}>
-            <Typography>Name</Typography>
-          </Grid>
-          <Grid item xs={10}>
-            <TextField
-              fullWidth
-              required
-              id="name"
-              label="Enter name"
-              placeholder="Enter name"
-            />
-          </Grid>
-        </Grid>
-        <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
-          <Grid item xs={1}></Grid>
-          <Grid item xs={3}>
-            <Typography>Email</Typography>
-          </Grid>
-          <Grid item xs={8}>
-            <TextField
-              fullWidth
-              required
-              type="email"
-              id="email"
-              label="Enter email"
-              placeholder="name@name.com"
-            />
-          </Grid>
-        </Grid>
-        <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
-          <Grid item xs={1}></Grid>
-          <Grid item xs={3}>
-            <Typography>Phone</Typography>
-          </Grid>
-          <Grid item xs={8}>
-            <TextField
-              fullWidth
-              id="phone"
-              label="Enter number"
-              placeholder="12345 678910"
-              type="tel"
-            />
-          </Grid>
-        </Grid>
-        <Grid container sx={{ mb: 2, display: "flex", alignItems: "center" }}>
-          <Grid item xs={1}></Grid>
-          <Grid item xs={3}>
-            <Typography>Message</Typography>
-          </Grid>
-          <Grid item xs={8}>
-            <TextField
-              fullWidth
-              required
-              id="message"
-              label="Enter message"
-              placeholder="Message"
-              multiline
-              maxRows={3}
-            />
-          </Grid>
-        </Grid>
+        <Box sx={{ margin: "0 5% 2% 5%" }}>
+          <Typography>Name</Typography>
+          <TextField
+            fullWidth
+            required
+            id="name"
+            label="Enter name"
+            placeholder="Enter name"
+          />
+        </Box>
+        <Box sx={{ margin: "0 5% 2% 5%" }}>
+          <Typography>Email</Typography>
+          <TextField
+            fullWidth
+            required
+            type="email"
+            id="email"
+            label="Enter email"
+            placeholder="name@name.com"
+          />
+        </Box>
+        <Box sx={{ margin: "0 5% 2% 5%" }}>
+          <Typography>Phone</Typography>
+          <TextField
+            fullWidth
+            id="phone"
+            label="Enter number"
+            placeholder="12345 678910"
+            type="tel"
+          />
+        </Box>
+        <Box sx={{ margin: "0 5% 2% 5%" }}>
+          <Typography>Let me know what you want to talk about</Typography>
+          <TextField
+            fullWidth
+            required
+            id="message"
+            label="Enter message"
+            placeholder="Message"
+            multiline
+            maxRows={3}
+          />
+        </Box>
         <Grid container sx={{ mb: 3 }}>
           <Grid item xs={1}></Grid>
           <Grid item xs={2}>
