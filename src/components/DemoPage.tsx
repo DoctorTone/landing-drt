@@ -25,6 +25,7 @@ const DemoPage = () => {
           textAlign="center"
           variant="h3"
         >
+          <a id="demos_page"></a>
           Demos
         </Typography>
         <Typography sx={{ mb: 3 }} textAlign="center">
@@ -34,7 +35,7 @@ const DemoPage = () => {
           <Grid item xs={12} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
-                href="https://drt-software.com/Demos/Configurator/configurator.html"
+                href="https://drt-software.com/Demos/Configurator/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -94,7 +95,11 @@ const DemoPage = () => {
         <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={12} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
-              <Link href="#">
+              <Link
+                href="https://drt-software.com/Demos/Physics/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Img src="./images/physics.jpg" />
               </Link>
               <Typography sx={{ padding: DEMO_PADDING }}>
@@ -113,7 +118,7 @@ const DemoPage = () => {
           <Grid item xs={12} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
-                href="https://www.drt-software.com/MedicalViz/medicalViz.html"
+                href="https://www.drt-software.com/MedicalViz/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -134,7 +139,11 @@ const DemoPage = () => {
         <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={12} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
-              <Link href="#">
+              <Link
+                href="https://www.drt-software.com/Portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Img src="./images/portfolio.jpg" />
               </Link>
               <Typography sx={{ padding: DEMO_PADDING }}>

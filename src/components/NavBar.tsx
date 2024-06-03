@@ -65,6 +65,9 @@ const NavBar = () => {
               open={open}
               onClose={handleClose}
             >
+              <MenuItem component="a" href="#demos_page" onClick={handleClose}>
+                Demos
+              </MenuItem>
               <MenuItem
                 component="a"
                 href="#services_page"
@@ -103,6 +106,14 @@ const NavBar = () => {
             }}
           >
             <Img src="./images/drtLogo.png" />
+            <Typography
+              variant="h6"
+              component="a"
+              href="#demos_page"
+              sx={{ textDecoration: "none", color: "black" }}
+            >
+              Demos
+            </Typography>
             <Typography
               variant="h6"
               component="a"
