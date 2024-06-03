@@ -11,6 +11,8 @@ const Contact = () => {
     <Box
       component="form"
       autoComplete="off"
+      action="https://usebasin.com/f/da50ea670849"
+      method="POST"
       sx={{ pt: 3, pb: 5, backgroundColor: "#eeeeee", color: "black" }}
     >
       <Container maxWidth="md">
@@ -29,6 +31,7 @@ const Contact = () => {
             id="name"
             label="Enter name"
             placeholder="Enter name"
+            name="userName"
           />
         </Box>
         <Box sx={{ margin: "0 5% 2% 5%" }}>
@@ -40,6 +43,7 @@ const Contact = () => {
             id="email"
             label="Enter email"
             placeholder="name@name.com"
+            name="userEmail"
           />
         </Box>
         <Box sx={{ margin: "0 5% 2% 5%" }}>
@@ -50,6 +54,7 @@ const Contact = () => {
             label="Enter number"
             placeholder="12345 678910"
             type="tel"
+            name="userPhone"
           />
         </Box>
         <Box sx={{ margin: "0 5% 2% 5%" }}>
@@ -62,12 +67,15 @@ const Contact = () => {
             placeholder="Message"
             multiline
             maxRows={3}
+            name="userText"
           />
         </Box>
         <Grid container sx={{ mb: 3 }}>
           <Grid item xs={1}></Grid>
           <Grid item xs={2}>
-            <Button variant="contained">Submit</Button>
+            <Button variant="contained" type="submit">
+              Submit
+            </Button>
           </Grid>
         </Grid>
         <Typography sx={{ textAlign: "center" }} gutterBottom>
