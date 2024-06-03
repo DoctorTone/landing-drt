@@ -60,7 +60,14 @@ const Services = () => {
         </Typography>
         <Typography sx={{ textAlign: "center" }}>
           If you would prefer a face-to-face meeting then please feel free to{" "}
-          <Button variant="contained">Schedule a call</Button>
+          <Button
+            variant="contained"
+            component="a"
+            href="https://calendly.com/tony-mdjh/30min"
+            target="_blank"
+          >
+            Schedule a call
+          </Button>
         </Typography>
       </Container>
     </Box>

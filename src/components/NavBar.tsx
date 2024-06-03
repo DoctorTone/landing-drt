@@ -138,7 +138,14 @@ const NavBar = () => {
             </Typography>
           </Box>
           <Box sx={{ display: "flex", ml: "auto" }}>
-            <Button variant="contained">Schedule call</Button>
+            <Button
+              component="a"
+              href="https://calendly.com/tony-mdjh/30min"
+              target="_blank"
+              variant="contained"
+            >
+              Schedule call
+            </Button>
           </Box>
         </Toolbar>
       </AppBar>
