@@ -6,6 +6,7 @@ import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
 import Link from "@mui/material/Link";
 
+const DEMO_PADDING = "5%";
 const Img = styled("img")({
   margin: "auto",
   display: "block",
@@ -39,7 +40,7 @@ const DemoPage = () => {
               >
                 <Img src="./images/configurator.jpg" />
               </Link>
-              <Typography sx={{ padding: "5%" }}>
+              <Typography sx={{ padding: DEMO_PADDING }}>
                 One of the most popular applications is to showcase physical
                 products. The 3D technology lets visitors see the items as if
                 they were real. This lets potential customers see all your
@@ -57,7 +58,7 @@ const DemoPage = () => {
               <Link href="#">
                 <Img src="./images/solar.jpg" />
               </Link>
-              <Typography sx={{ padding: "5%" }}>
+              <Typography sx={{ padding: DEMO_PADDING }}>
                 3D graphics are ideal for visualisation, but they are even
                 better when they are used to educate. Simulations of things such
                 as the solar system not only look stunning but they can highight
@@ -75,7 +76,7 @@ const DemoPage = () => {
               <Link href="#">
                 <Img src="./images/museum.jpg" />
               </Link>
-              <Typography sx={{ padding: "5%" }}>
+              <Typography sx={{ padding: DEMO_PADDING }}>
                 Graphics technology allows you to create virtual worlds that can
                 create truly engaging visitor experiences. This could be an
                 alien fantasy world or a representation of a famous place that
@@ -96,7 +97,7 @@ const DemoPage = () => {
               <Link href="#">
                 <Img src="./images/physics.jpg" />
               </Link>
-              <Typography sx={{ padding: "5%" }}>
+              <Typography sx={{ padding: DEMO_PADDING }}>
                 Complex physics simulations are now possible in the browser.
                 This opens up all sorts of potential applications, in areas such
                 as engineering, education, gaming, earth sciences, astronomy,
@@ -118,7 +119,7 @@ const DemoPage = () => {
               >
                 <Img src="./images/brain.jpg" />
               </Link>
-              <Typography sx={{ padding: "5%" }}>
+              <Typography sx={{ padding: DEMO_PADDING }}>
                 A classical example of 3D graphics is in the field of medical
                 imaging. This was once only possible on powerful, high-end
                 computers, but can now be achieved in the browser. This
@@ -136,7 +137,7 @@ const DemoPage = () => {
               <Link href="#">
                 <Img src="./images/portfolio.jpg" />
               </Link>
-              <Typography sx={{ padding: "5%" }}>
+              <Typography sx={{ padding: DEMO_PADDING }}>
                 There is no reason why your whole website cannot be made in 3D!
                 This will certainly make your site stand out from your
                 competitors. Here is a link to my complete portfolio. Please

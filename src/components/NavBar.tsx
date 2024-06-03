@@ -65,10 +65,31 @@ const NavBar = () => {
               open={open}
               onClose={handleClose}
             >
-              <MenuItem onClick={handleClose}>Services</MenuItem>
-              <MenuItem onClick={handleClose}>About</MenuItem>
-              <MenuItem onClick={handleClose}>Contact</MenuItem>
-              <MenuItem onClick={handleClose}>Portfolio</MenuItem>
+              <MenuItem
+                component="a"
+                href="#services_page"
+                onClick={handleClose}
+              >
+                Services
+              </MenuItem>
+              <MenuItem component="a" href="#about_page" onClick={handleClose}>
+                About
+              </MenuItem>
+              <MenuItem
+                component="a"
+                href="#contact_page"
+                onClick={handleClose}
+              >
+                Contact
+              </MenuItem>
+              <MenuItem
+                component="a"
+                href="https://drt-software.com/Portfolio/"
+                target="_blank"
+                onClick={handleClose}
+              >
+                Portfolio
+              </MenuItem>
             </Menu>
           </Box>
           <Box

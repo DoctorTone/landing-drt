@@ -40,8 +40,7 @@ const Services = () => {
         <Typography sx={{ mb: 2, display: "flex", alignContent: "center" }}>
           <HexagonOutlinedIcon color="warning" sx={{ mr: 1 }} />I offer
           consultancy services to try and help people decide on the best
-          technology choices available and the most applicable to thier
-          application areas.
+          technology choices available and the most applicable to thier needs.
         </Typography>
         <Typography sx={{ mb: 2, display: "flex", alignContent: "center" }}>
           <HexagonOutlinedIcon color="warning" sx={{ mr: 1 }} />
