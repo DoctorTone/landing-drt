@@ -21,7 +21,7 @@ const About = () => {
           <a id="about_page"></a>
           About
         </Typography>
-        <Img src="./images/tony.jpg" />
+        <Img src="./images/profile.jpg" />
         <Typography sx={{ mb: 2 }}>
           I'm Dr Tony Glover and I have more than 25 years experience in the
           software development industry. I am passionate about all things 3D -
@@ -51,6 +51,3 @@ const About = () => {
 };
 
 export default About;
-
-{
-}

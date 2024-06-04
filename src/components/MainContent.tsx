@@ -42,20 +42,20 @@ const MainContent = () => {
           your products or applications to another level.
         </Typography>
       </Box>
-      <Grid container sx={{ ml: { xs: 0, sm: "15%", md: "10%" } }}>
-        <Grid item xs={12} md={6}>
+      <Grid container sx={{ pl: { xs: 0, sm: "12%", md: "10%" } }}>
+        <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">Showcase products on your site</Typography>
           </Box>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">Visualise and share data</Typography>
           </Box>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
@@ -63,15 +63,15 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">Simulate other worlds</Typography>
           </Box>
         </Grid>
       </Grid>
-      <Grid container sx={{ ml: { xs: 0, sm: "15%", md: "10%" } }}>
-        <Grid item xs={12} md={6}>
+      <Grid container sx={{ pl: { xs: 0, sm: "12%", md: "10%" } }}>
+        <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
@@ -79,7 +79,7 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
@@ -87,7 +87,7 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">
@@ -95,7 +95,7 @@ const MainContent = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
             <BoltIcon fontSize="large" color="primary" />
             <Typography variant="h6">Gain a competitive edge</Typography>
@@ -105,8 +105,8 @@ const MainContent = () => {
       <Box sx={{ mt: 2, mb: 4 }}>
         <Typography textAlign="center">
           The application areas are <strong>huge</strong>. I've helped both
-          large and small commercial companies, start-ups and academia and I can
-          help you too.
+          large and small companies, start-ups and academia and I can help you
+          too.
         </Typography>
       </Box>
       {/* <Box sx={{ display: "flex", justifyContent: "center", mb: 3 }}>
