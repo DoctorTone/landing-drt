@@ -15,7 +15,7 @@ const Contact = () => {
       method="POST"
       sx={{ pt: 3, pb: 5, backgroundColor: "#eeeeee", color: "black" }}
     >
-      <Container maxWidth="md">
+      <Container sx={{ maxWidth: { sm: "sm", md: "md" } }}>
         <Typography sx={{ mb: 1 }} textAlign="center" variant="h3">
           <a id="contact_page"></a>
           Contact

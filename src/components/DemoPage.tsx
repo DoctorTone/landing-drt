@@ -32,7 +32,7 @@ const DemoPage = () => {
           (Click on the image to see the demo)
         </Typography>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} sm={8} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
                 href="https://drt-software.com/Demos/Configurator/"
@@ -54,7 +54,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} sm={8} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
                 href="https://drt-software.com/Demos/Solar"
@@ -76,7 +76,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} sm={8} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link href="">
                 <Img src="./images/museum.jpg" />
@@ -97,7 +97,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} sm={8} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
                 href="https://drt-software.com/Demos/Physics/"
@@ -119,7 +119,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} sm={8} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
                 href="https://www.drt-software.com/MedicalViz/"
@@ -141,7 +141,7 @@ const DemoPage = () => {
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} sm={8} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
               <Link
                 href="https://www.drt-software.com/Portfolio"

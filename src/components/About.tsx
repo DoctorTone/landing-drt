@@ -16,7 +16,7 @@ const Img = styled("img")({
 const About = () => {
   return (
     <Box sx={{ pt: 3, pb: 5, backgroundColor: "#aaaaaa", color: "black" }}>
-      <Container maxWidth="md">
+      <Container sx={{ maxWidth: { sm: "sm", md: "md" } }}>
         <Typography sx={{ mb: 1 }} textAlign="center" variant="h3">
           <a id="about_page"></a>
           About

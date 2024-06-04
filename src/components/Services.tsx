@@ -10,7 +10,7 @@ import Button from "@mui/material/Button";
 const Services = () => {
   return (
     <Box sx={{ pt: 3, pb: 5, backgroundColor: "#333", color: "white" }}>
-      <Container maxWidth="md">
+      <Container sx={{ maxWidth: { sm: "sm", md: "md" } }}>
         <Typography sx={{ mb: 1 }} textAlign="center" variant="h3">
           <a id="services_page"></a>
           Services
