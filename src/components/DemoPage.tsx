@@ -56,7 +56,11 @@ const DemoPage = () => {
         <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={12} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
-              <Link href="#">
+              <Link
+                href="https://drt-software.com/Demos/Solar"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Img src="./images/solar.jpg" />
               </Link>
               <Typography sx={{ padding: DEMO_PADDING }}>
@@ -74,7 +78,7 @@ const DemoPage = () => {
         <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={12} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
-              <Link href="#">
+              <Link href="">
                 <Img src="./images/museum.jpg" />
               </Link>
               <Typography sx={{ padding: DEMO_PADDING }}>
