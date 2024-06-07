@@ -55,13 +55,27 @@ const Footer = () => {
       </Box>
       <Box sx={{ mt: 2 }}>
         <Container sx={{ display: "flex", justifyContent: "center" }}>
-          <Link sx={{ mr: 5 }} href="#">
+          <Link
+            sx={{ mr: 5 }}
+            href="https://twitter.com/DrtSoftware"
+            target="_blank"
+            rel="noreferrer"
+          >
             <XIcon fontSize="large" sx={{ color: "white" }} />
           </Link>
-          <Link sx={{ mr: 5 }} href="#">
+          <Link
+            sx={{ mr: 5 }}
+            href="https://www.youtube.com/channel/UCNYHLpd8oKLoE2xw49ZX1nQ"
+            target="_blank"
+            rel="noreferrer"
+          >
             <YouTubeIcon fontSize="large" color="error" />
           </Link>
-          <Link href="#">
+          <Link
+            href="https://www.linkedin.com/in/tonyglover"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon fontSize="large" />
           </Link>
         </Container>
