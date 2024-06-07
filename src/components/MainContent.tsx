@@ -113,9 +113,9 @@ const MainContent = () => {
       </Grid>
       <Box sx={{ mt: 2, mb: 4 }}>
         <Typography textAlign="center">
-          The application areas are <strong>huge</strong>. I've helped both
-          large and small companies, start-ups and academia and I can help you
-          too.
+          The application areas are <span className="orangeText">huge</span>.
+          I've helped both large and small companies, start-ups and academia and
+          I can help you too.
         </Typography>
       </Box>
       {/* <Box sx={{ display: "flex", justifyContent: "center", mb: 3 }}>
