@@ -4,9 +4,7 @@ import Grid from "@mui/material/Grid";
 import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
 import DoneIcon from "@mui/icons-material/Done";
-import { Canvas } from "@react-three/fiber";
-import { Float } from "@react-three/drei";
-import { Text } from "../Models/Text";
+import { RenderCanvas } from "./RenderCanvas";
 
 const Img = styled("img")({
   margin: "auto",
@@ -35,13 +33,7 @@ const MainContent = () => {
             </Typography>
           </Grid>
           <Grid item xs={12} md={7}>
-            <Canvas camera={{ position: [0, 0, 0.75] }}>
-              <ambientLight intensity={1} />
-              <pointLight position={[0.2, 0.1, 0.25]} />
-              <Float>
-                <Text position={[-0, -0.3, -0]} />
-              </Float>
-            </Canvas>
+            <RenderCanvas />
           </Grid>
         </Grid>
       </Box>
