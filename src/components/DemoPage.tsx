@@ -6,7 +6,6 @@ import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
 import Link from "@mui/material/Link";
 
-const DEMO_PADDING = "5%";
 const Img = styled("img")({
   margin: "auto",
   display: "block",
@@ -17,7 +16,10 @@ const Img = styled("img")({
 
 const DemoPage = () => {
   return (
-    <Box sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "#333333" }}>
+    <Box
+      component="div"
+      sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "#333333" }}
+    >
       <Container sx={{ mb: 4 }}>
         <Typography
           sx={{ mb: 1, color: "#ed6c02" }}

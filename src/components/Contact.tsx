@@ -23,7 +23,7 @@ const Contact = () => {
         <Typography textAlign="center" sx={{ mb: 2 }}>
           I aim to respond to messages within one working day.
         </Typography>
-        <Box sx={{ margin: "0 5% 2% 5%" }}>
+        <Box component="div" sx={{ margin: "0 5% 2% 5%" }}>
           <Typography>Name</Typography>
           <TextField
             fullWidth
@@ -34,7 +34,7 @@ const Contact = () => {
             name="userName"
           />
         </Box>
-        <Box sx={{ margin: "0 5% 2% 5%" }}>
+        <Box component="div" sx={{ margin: "0 5% 2% 5%" }}>
           <Typography>Email</Typography>
           <TextField
             fullWidth
@@ -46,7 +46,7 @@ const Contact = () => {
             name="userEmail"
           />
         </Box>
-        <Box sx={{ margin: "0 5% 2% 5%" }}>
+        <Box component="div" sx={{ margin: "0 5% 2% 5%" }}>
           <Typography>Phone</Typography>
           <TextField
             fullWidth
@@ -57,7 +57,7 @@ const Contact = () => {
             name="userPhone"
           />
         </Box>
-        <Box sx={{ margin: "0 5% 2% 5%" }}>
+        <Box component="div" sx={{ margin: "0 5% 2% 5%" }}>
           <Typography>What can I help you with?</Typography>
           <TextField
             fullWidth

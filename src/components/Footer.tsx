@@ -11,12 +11,18 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
-    <Box sx={{ pt: 3, pb: 5, backgroundColor: "#222222", color: "orange" }}>
-      <Box sx={{ display: { xs: "block", md: "none" } }}>
+    <Box
+      component="div"
+      sx={{ pt: 3, pb: 5, backgroundColor: "#222222", color: "orange" }}
+    >
+      <Box component="div" sx={{ display: { xs: "block", md: "none" } }}>
         <Stack alignItems="center" sx={{ mb: 2 }}>
           <LocationOnIcon fontSize="large" color="warning" />
         </Stack>
-        <Box sx={{ display: "flex", justifyContent: "center", ml: 2, mb: 1 }}>
+        <Box
+          component="div"
+          sx={{ display: "flex", justifyContent: "center", ml: 2, mb: 1 }}
+        >
           <CopyrightIcon sx={{ mr: 1 }} />
           <Typography>DRT Software Ltd 2024</Typography>
         </Box>
@@ -36,12 +42,12 @@ const Footer = () => {
           VAT No: 331 7022 43
         </Typography>
       </Box>
-      <Box sx={{ display: { xs: "none", md: "block" } }}>
+      <Box component="div" sx={{ display: { xs: "none", md: "block" } }}>
         <Stack alignItems="center" sx={{ mb: 2 }}>
           <LocationOnIcon fontSize="large" color="warning" />
         </Stack>
-        <Box sx={{ display: "flex", justifyContent: "center" }}>
-          <Box sx={{ display: "flex", alignContent: "center" }}>
+        <Box component="div" sx={{ display: "flex", justifyContent: "center" }}>
+          <Box component="div" sx={{ display: "flex", alignContent: "center" }}>
             <CopyrightIcon sx={{ mr: 1 }} />
             <Typography>DRT Software Ltd 2024</Typography>
           </Box>
@@ -53,7 +59,7 @@ const Footer = () => {
           <Typography>VAT No: 331 7022 43</Typography>
         </Box>
       </Box>
-      <Box sx={{ mt: 2 }}>
+      <Box component="div" sx={{ mt: 2 }}>
         <Container sx={{ display: "flex", justifyContent: "center" }}>
           <Link
             sx={{ mr: 5 }}

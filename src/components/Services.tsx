@@ -9,7 +9,10 @@ import Button from "@mui/material/Button";
 
 const Services = () => {
   return (
-    <Box sx={{ pt: 3, pb: 5, backgroundColor: "#000", color: "white" }}>
+    <Box
+      component="div"
+      sx={{ pt: 3, pb: 5, backgroundColor: "#000", color: "white" }}
+    >
       <Container sx={{ maxWidth: { sm: "sm", md: "md" } }}>
         <Typography
           sx={{ mb: 1, color: "#ed6c02" }}

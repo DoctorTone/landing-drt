@@ -30,6 +30,7 @@ const NavBar = () => {
 
   return (
     <Box
+      component="div"
       sx={{
         paddingTop: 2,
         marginLeft: 5,
@@ -46,7 +47,7 @@ const NavBar = () => {
         position="static"
       >
         <Toolbar disableGutters>
-          <Box sx={{ display: { xs: "flex", md: "none" } }}>
+          <Box component="div" sx={{ display: { xs: "flex", md: "none" } }}>
             <Img src="./images/drtLogo.png" />
             <IconButton
               size="large"
@@ -96,6 +97,7 @@ const NavBar = () => {
             </Menu>
           </Box>
           <Box
+            component="div"
             sx={{
               paddingTop: "5px",
               paddingBottom: "5px",
@@ -148,7 +150,7 @@ const NavBar = () => {
               Portfolio
             </Typography>
           </Box>
-          <Box sx={{ display: "flex", ml: "auto" }}>
+          <Box component="div" sx={{ display: "flex", ml: "auto" }}>
             <Button
               component="a"
               href="https://calendly.com/tony-mdjh/30min"
