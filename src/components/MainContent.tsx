@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
 import BoltIcon from "@mui/icons-material/Bolt";
+import DoneIcon from "@mui/icons-material/Done";
 
 const Img = styled("img")({
   margin: "auto",
@@ -26,7 +27,7 @@ const MainContent = () => {
             <Typography sx={{ mb: 5 }} variant="h3" align="center">
               Unleash the power of 3D.
             </Typography>
-            <Typography variant="h6" align="center">
+            <Typography variant="h6" align="center" sx={{ color: "grey" }}>
               More engaging interaction, enhanced user experiences and increased
               sales for your website.
             </Typography>
@@ -45,60 +46,68 @@ const MainContent = () => {
       <Grid container sx={{ pl: { xs: 0, sm: "12%", md: "10%" } }}>
         <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">Showcase products on your site</Typography>
+            <DoneIcon fontSize="large" color="warning" />
+            <Typography variant="h6" sx={{ color: "grey" }}>
+              Showcase products on your site
+            </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">Visualise and share data</Typography>
+            <DoneIcon fontSize="large" color="warning" />
+            <Typography variant="h6" sx={{ color: "grey" }}>
+              Visualise and share data
+            </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">
+            <DoneIcon fontSize="large" color="warning" />
+            <Typography variant="h6" sx={{ color: "grey" }}>
               Create virtual exhibits and experiences
             </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">Simulate other worlds</Typography>
+            <DoneIcon fontSize="large" color="warning" />
+            <Typography variant="h6" sx={{ color: "grey" }}>
+              Simulate other worlds
+            </Typography>
           </Box>
         </Grid>
       </Grid>
       <Grid container sx={{ pl: { xs: 0, sm: "12%", md: "10%" } }}>
         <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">
+            <DoneIcon fontSize="large" color="warning" />
+            <Typography variant="h6" sx={{ color: "grey" }}>
               Build architectural fly-throughs
             </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">
+            <DoneIcon fontSize="large" color="warning" />
+            <Typography variant="h6" sx={{ color: "grey" }}>
               Increased immersion with virtual reality
             </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">
+            <DoneIcon fontSize="large" color="warning" />
+            <Typography variant="h6" sx={{ color: "grey" }}>
               Train repetitive/hazardous taks
             </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} sm={8} md={6}>
           <Box sx={{ display: "flex" }}>
-            <BoltIcon fontSize="large" color="primary" />
-            <Typography variant="h6">Gain a competitive edge</Typography>
+            <DoneIcon fontSize="large" color="warning" />
+            <Typography variant="h6" sx={{ color: "grey" }}>
+              Gain a competitive edge
+            </Typography>
           </Box>
         </Grid>
       </Grid>

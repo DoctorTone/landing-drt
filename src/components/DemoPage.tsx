@@ -12,28 +12,27 @@ const Img = styled("img")({
   display: "block",
   width: "100%",
   maxHeight: "100%",
-  borderTopLeftRadius: "20px",
-  borderTopRightRadius: "20px",
+  borderRadius: "20px",
 });
 
 const DemoPage = () => {
   return (
-    <Box sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "#aaaaaa" }}>
+    <Box sx={{ mt: 10, pt: 5, pb: 5, backgroundColor: "#333333" }}>
       <Container sx={{ mb: 4 }}>
         <Typography
-          sx={{ mb: 1, color: "#333333" }}
+          sx={{ mb: 1, color: "orange" }}
           textAlign="center"
           variant="h3"
         >
           <a id="demos_page"></a>
           Demos
         </Typography>
-        <Typography sx={{ mb: 3 }} textAlign="center">
+        <Typography sx={{ mb: 3, color: "grey" }} textAlign="center">
           (Click on the image to see the demo)
         </Typography>
-        <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={12} sm={8} md={8}>
-            <Paper sx={{ borderRadius: "20px" }}>
+        <Grid container spacing="50" sx={{ justifyContent: "center" }}>
+          <Grid item xs={12} sm={8} md={6}>
+            <Paper sx={{ borderRadius: "20px", mb: 1 }}>
               <Link
                 href="https://drt-software.com/Demos/Configurator/"
                 target="_blank"
@@ -41,21 +40,20 @@ const DemoPage = () => {
               >
                 <Img src="./images/configurator.jpg" />
               </Link>
-              <Typography sx={{ padding: DEMO_PADDING }}>
-                One of the most popular applications is to showcase physical
-                products. The 3D technology lets visitors see the items as if
-                they were real. This lets potential customers see all your
-                products up close and can give a better idea of what they are
-                buying before they purchase.
-              </Typography>
             </Paper>
+            <Typography variant="h6" sx={{ textAlign: "center", mb: 1 }}>
+              3D Configurators
+            </Typography>
+            <Typography sx={{ color: "grey" }}>
+              One of the most popular applications is to showcase physical
+              products. The 3D technology lets visitors see the items as if they
+              were real. This lets potential customers see all your products up
+              close and can give a better idea of what they are buying before
+              they purchase.
+            </Typography>
           </Grid>
-        </Grid>
-      </Container>
-      <Container sx={{ mb: 4 }}>
-        <Grid container sx={{ justifyContent: "center" }}>
-          <Grid item xs={12} sm={8} md={8}>
-            <Paper sx={{ borderRadius: "20px" }}>
+          <Grid item xs={12} sm={8} md={6}>
+            <Paper sx={{ borderRadius: "20px", mb: 1 }}>
               <Link
                 href="https://drt-software.com/Demos/Solar"
                 target="_blank"
@@ -63,16 +61,22 @@ const DemoPage = () => {
               >
                 <Img src="./images/solar.jpg" />
               </Link>
-              <Typography sx={{ padding: DEMO_PADDING }}>
-                3D graphics are ideal for visualisation, but they are even
-                better when they are used to educate. Simulations of things such
-                as the solar system not only look stunning but they can highight
-                some amazing facts. This simulation shows the relative sizes of
-                the planets and how fast they move through space.
-              </Typography>
             </Paper>
+            <Typography variant="h6" sx={{ textAlign: "center", mb: 1 }}>
+              Simulation
+            </Typography>
+            <Typography sx={{ color: "grey" }}>
+              3D graphics are ideal for visualisation, but they are even better
+              when they are used to educate. Simulations of things such as the
+              solar system not only look stunning but they can highight some
+              amazing facts. This simulation shows the relative sizes of the
+              planets and how fast they move through space.
+            </Typography>
           </Grid>
         </Grid>
+      </Container>
+      <Container sx={{ mb: 4 }}>
+        <Grid container sx={{ justifyContent: "center" }}></Grid>
       </Container>
       <Container sx={{ mb: 4 }}>
         <Grid container sx={{ justifyContent: "center" }}>
