@@ -78,9 +78,9 @@ const DemoPage = () => {
         <Grid container sx={{ justifyContent: "center" }}>
           <Grid item xs={12} sm={8} md={8}>
             <Paper sx={{ borderRadius: "20px" }}>
-              <Link href="">
-                <Img src="./images/museum.jpg" />
-              </Link>
+              {/* <Link href=""> */}
+              <Img src="./images/museum.jpg" />
+              {/* </Link> */}
               <Typography sx={{ padding: DEMO_PADDING }}>
                 Graphics technology allows you to create virtual worlds that can
                 create truly engaging visitor experiences. This could be an

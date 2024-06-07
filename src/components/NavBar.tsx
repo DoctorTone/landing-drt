@@ -40,8 +40,8 @@ const NavBar = () => {
       <AppBar
         elevation={0}
         sx={{
-          backgroundColor: "#eeeeee",
-          color: "black",
+          backgroundColor: "#000000",
+          color: "orange",
         }}
         position="static"
       >
@@ -54,7 +54,7 @@ const NavBar = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="warning"
               sx={{ ml: 1 }}
             >
               <MenuIcon />
@@ -110,7 +110,7 @@ const NavBar = () => {
               variant="h6"
               component="a"
               href="#demos_page"
-              sx={{ textDecoration: "none", color: "black" }}
+              sx={{ textDecoration: "none", color: "orange" }}
             >
               Demos
             </Typography>
@@ -118,7 +118,7 @@ const NavBar = () => {
               variant="h6"
               component="a"
               href="#services_page"
-              sx={{ textDecoration: "none", color: "black" }}
+              sx={{ textDecoration: "none", color: "orange" }}
             >
               Services
             </Typography>
@@ -126,7 +126,7 @@ const NavBar = () => {
               variant="h6"
               component="a"
               href="#about_page"
-              sx={{ textDecoration: "none", color: "black" }}
+              sx={{ textDecoration: "none", color: "orange" }}
             >
               About
             </Typography>
@@ -134,7 +134,7 @@ const NavBar = () => {
               variant="h6"
               component="a"
               href="#contact_page"
-              sx={{ textDecoration: "none", color: "black" }}
+              sx={{ textDecoration: "none", color: "orange" }}
             >
               Contact
             </Typography>
@@ -143,7 +143,7 @@ const NavBar = () => {
               component="a"
               href="https://drt-software.com/Portfolio/"
               target="_blank"
-              sx={{ textDecoration: "none", color: "black" }}
+              sx={{ textDecoration: "none", color: "orange" }}
             >
               Portfolio
             </Typography>
