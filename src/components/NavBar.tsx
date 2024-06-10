@@ -36,7 +36,6 @@ const NavBar = () => {
           paddingTop: 2,
           marginLeft: 5,
           marginRight: 5,
-          display: "flex",
         }}
       >
         <AppBar
@@ -46,6 +45,8 @@ const NavBar = () => {
             padding: "0 2%",
             borderRadius: "10px",
             color: "orange",
+            top: "10px",
+            left: "0",
           }}
           position="static"
         >
