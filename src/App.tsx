@@ -13,9 +13,9 @@ function App() {
     <>
       <NavBar />
       <MainContent />
-      <Testimonials />
-      <Benefits />
       <DemoPage />
+      <Benefits />
+      <Testimonials />
       <Services />
       <About />
       <Contact />

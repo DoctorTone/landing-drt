@@ -2,6 +2,8 @@ import { Container, Paper, Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import MouseIcon from "@mui/icons-material/Mouse";
+import HeadsetIcon from "@mui/icons-material/Headset";
+import Diversity3Icon from "@mui/icons-material/Diversity3";
 
 const Benefits = () => {
   return (
@@ -39,11 +41,11 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                More engagement
+                Better engagement
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                Customers can see objects as if they were real on your site, or
-                look at instrucions and see them up close and real.
+                Interacting with realistic looking objects gives customers a
+                better
               </Typography>
             </Paper>
           </Grid>
@@ -66,7 +68,7 @@ const Benefits = () => {
                     mb: 2,
                   }}
                 >
-                  <MouseIcon color="warning" fontSize="large" />
+                  <HeadsetIcon color="warning" fontSize="large" />
                 </Paper>
               </Stack>
               <Typography
@@ -78,8 +80,8 @@ const Benefits = () => {
                 More immersive
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                Customers can see objects as if they were real on your site, or
-                look at instrucions and see them up close and real.
+                You can take people on an experience, a virtual tour of another
+                world. You can even use virtual reality to take this to the max.
               </Typography>
             </Paper>
           </Grid>
@@ -102,7 +104,7 @@ const Benefits = () => {
                     mb: 2,
                   }}
                 >
-                  <MouseIcon color="warning" fontSize="large" />
+                  <Diversity3Icon color="warning" fontSize="large" />
                 </Paper>
               </Stack>
               <Typography
@@ -111,7 +113,7 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                More sales
+                Increased visitors and sales
               </Typography>
               <Typography sx={{ color: "grey" }}>
                 Customers can see objects as if they were real on your site, or
