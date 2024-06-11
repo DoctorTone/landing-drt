@@ -11,7 +11,12 @@ const Img = styled("img")({
 export const Testimonials = () => {
   return (
     <Container
-      sx={{ mt: 10, backgroundColor: "#dfe09d", borderRadius: "20px" }}
+      sx={{
+        mt: 10,
+        mb: 2,
+        backgroundColor: "#dfe09d",
+        borderRadius: "20px",
+      }}
     >
       <Typography variant="h6" sx={{ color: "black", textAlign: "center" }}>
         A few people that I've helped along the way...
@@ -24,12 +29,15 @@ export const Testimonials = () => {
           <Img src="./images/iosh-logo.png" />
         </Grid>
         <Grid item xs={3}>
-          <Img src="./images/logo_imh2.png" />
-        </Grid>
-        <Grid item xs={3}>
           <Img src="./images/ThrillLabLogo.jpg" />
         </Grid>
+        <Grid item xs={3}>
+          <Img src="./images/logo_imh2.png" />
+        </Grid>
       </Grid>
+      <Typography variant="h6" sx={{ color: "black", textAlign: "center" }}>
+        and plenty more to come...
+      </Typography>
     </Container>
   );
 };
