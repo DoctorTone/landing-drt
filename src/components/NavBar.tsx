@@ -30,27 +30,20 @@ const NavBar = () => {
 
   return (
     <Container>
-      <Box
-        component="div"
-        sx={{
-          paddingTop: 2,
-          marginLeft: 5,
-          marginRight: 5,
-        }}
-      >
+      <Box component="div">
         <AppBar
+          className="sticky"
           elevation={0}
           sx={{
             backgroundColor: "#333333",
-            padding: "0 2%",
             borderRadius: "10px",
             color: "orange",
-            top: "10px",
-            left: "0",
+            width: "70%",
+            left: "15%",
+            marginTop: "10px",
           }}
-          position="static"
         >
-          <Toolbar disableGutters>
+          <Toolbar>
             <Box component="div" sx={{ display: { xs: "flex", md: "none" } }}>
               <Img src="./images/drtLogo.png" />
               <IconButton

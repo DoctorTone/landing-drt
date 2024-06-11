@@ -28,8 +28,8 @@ const MainContent = () => {
           </Grid>
         </Grid>
       </Box>
-      <Box component="div">
-        <Typography textAlign="center" sx={{ mb: 3 }}>
+      <Box component="div" sx={{ mt: 3 }}>
+        <Typography textAlign="center">
           Adopting the latest 3D graphics technlogy on your website can elevate
           your products or applications to another level.
         </Typography>

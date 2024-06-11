@@ -14,3 +14,6 @@ canvas {
 .orangeText {
   color: #ed6c02;
 }
+.sticky {
+  position: sticky;
+}
