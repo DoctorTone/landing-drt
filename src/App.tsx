@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Testimonials } from "./components/Testimonials";
+import Benefits from "./components/Benefits";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <MainContent />
       <Testimonials />
+      <Benefits />
       <DemoPage />
       <Services />
       <About />
