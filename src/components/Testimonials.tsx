@@ -1,0 +1,36 @@
+import { styled } from "@mui/material/styles";
+import { Container, Typography } from "@mui/material";
+import Grid from "@mui/material/Grid";
+
+const Img = styled("img")({
+  margin: "auto",
+  display: "block",
+  width: "100%",
+  maxHeight: "100%",
+});
+
+export const Testimonials = () => {
+  return (
+    <Container sx={{ mt: 15 }}>
+      <Typography>A few people that I've helped along the way.</Typography>
+      <Grid
+        container
+        spacing={10}
+        sx={{ backgroundColor: "#dfe09d", borderRadius: "20px" }}
+      >
+        <Grid item xs={3}>
+          <Img src="./images/logo_uon.png" />
+        </Grid>
+        <Grid item xs={3}>
+          <Img src="./images/iosh-logo.png" />
+        </Grid>
+        <Grid item xs={3}>
+          <Img src="./images/logo_imh2.png" />
+        </Grid>
+        <Grid item xs={3}>
+          <Img src="./images/ThrillLabLogo.jpg" />
+        </Grid>
+      </Grid>
+    </Container>
+  );
+};

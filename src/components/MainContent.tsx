@@ -6,7 +6,7 @@ import { RenderCanvas } from "./RenderCanvas";
 
 const MainContent = () => {
   return (
-    <Container sx={{ mt: 3, mb: 5 }}>
+    <Container sx={{ mt: 23, mb: 5 }}>
       <Box component="div" sx={{ mt: 15 }}>
         <Typography variant="h3" align="center">
           Unleash the power of 3D.
@@ -34,19 +34,13 @@ const MainContent = () => {
           your products or applications to another level.
         </Typography>
       </Box>
-      <Box component="div" sx={{ mt: 2, mb: 4 }}>
+      <Box component="div" sx={{ mt: 2 }}>
         <Typography textAlign="center">
           The application areas are <span className="orangeText">huge</span>.
           I've helped both large and small companies, start-ups and academia and
           I can help you too.
         </Typography>
       </Box>
-      {/* <Box sx={{ display: "flex", justifyContent: "center", mb: 3 }}>
-        <Img src="./images/logo_uon.png" />
-        <Img src="./images/artxr_full_XR.png" />
-        <Img src="./images/iosh-logo.png" />
-        <Img src="./images/kp.png" />
-      </Box> */}
     </Container>
   );
 };
