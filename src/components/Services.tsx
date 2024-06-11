@@ -15,12 +15,12 @@ const Services = () => {
     >
       <Container sx={{ maxWidth: { sm: "sm", md: "md" } }}>
         <Typography
-          sx={{ mb: 1, color: "#ed6c02" }}
+          sx={{ mb: 1, color: "orange" }}
           textAlign="center"
-          variant="h3"
+          variant="h4"
         >
           <a id="services_page"></a>
-          Services
+          What can I do for you?
         </Typography>
         <Stack alignItems="center" sx={{ mb: 2 }}>
           <ConstructionIcon fontSize="large" color="warning" />

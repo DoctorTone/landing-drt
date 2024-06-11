@@ -6,8 +6,8 @@ import { RenderCanvas } from "./RenderCanvas";
 
 const MainContent = () => {
   return (
-    <Container sx={{ mt: 23, mb: 5 }}>
-      <Box component="div" sx={{ mt: 15 }}>
+    <Container sx={{ mt: 25, mb: 5 }}>
+      <Box component="div">
         <Typography variant="h3" align="center">
           Unleash the power of 3D.
         </Typography>

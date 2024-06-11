@@ -20,9 +20,9 @@ const About = () => {
       sx={{ pt: 3, pb: 5, backgroundColor: "#aaaaaa", color: "black" }}
     >
       <Container sx={{ maxWidth: { sm: "sm", md: "md" } }}>
-        <Typography sx={{ mb: 1 }} textAlign="center" variant="h3">
+        <Typography sx={{ mb: 1 }} textAlign="center" variant="h4">
           <a id="about_page"></a>
-          About
+          Who am I?
         </Typography>
         <Img src="./images/profile.jpg" />
         <Typography sx={{ mb: 2 }}>

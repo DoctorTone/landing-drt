@@ -5,19 +5,18 @@ import Grid from "@mui/material/Grid";
 const Img = styled("img")({
   margin: "auto",
   display: "block",
-  width: "100%",
   maxHeight: "100%",
 });
 
 export const Testimonials = () => {
   return (
-    <Container sx={{ mt: 15 }}>
-      <Typography>A few people that I've helped along the way.</Typography>
-      <Grid
-        container
-        spacing={10}
-        sx={{ backgroundColor: "#dfe09d", borderRadius: "20px" }}
-      >
+    <Container
+      sx={{ mt: 10, backgroundColor: "#dfe09d", borderRadius: "20px" }}
+    >
+      <Typography variant="h6" sx={{ color: "black", textAlign: "center" }}>
+        A few people that I've helped along the way...
+      </Typography>
+      <Grid container sx={{ padding: "2% 0" }}>
         <Grid item xs={3}>
           <Img src="./images/logo_uon.png" />
         </Grid>
