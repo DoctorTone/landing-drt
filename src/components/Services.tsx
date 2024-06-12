@@ -20,7 +20,7 @@ const Services = () => {
           variant="h4"
         >
           <a id="services_page"></a>
-          What can I do for you?
+          How can I help?
         </Typography>
         <Stack alignItems="center" sx={{ mb: 2 }}>
           <ConstructionIcon fontSize="large" color="warning" />

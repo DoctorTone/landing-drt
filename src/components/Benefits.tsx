@@ -10,7 +10,7 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 const Benefits = () => {
   return (
-    <Box component="div" sx={{ backgroundColor: "black" }}>
+    <Box component="div" sx={{ backgroundColor: "black", mb: 3 }}>
       <Container>
         <Typography variant="h4" align="center" sx={{ color: "orange", mb: 1 }}>
           Why use 3D?
