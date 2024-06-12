@@ -2,8 +2,11 @@ import { Container, Paper, Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import MouseIcon from "@mui/icons-material/Mouse";
-import HeadsetIcon from "@mui/icons-material/Headset";
 import Diversity3Icon from "@mui/icons-material/Diversity3";
+import VisibilityIcon from "@mui/icons-material/Visibility";
+import EditIcon from "@mui/icons-material/Edit";
+import AutoStoriesIcon from "@mui/icons-material/AutoStories";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 const Benefits = () => {
   return (
@@ -45,7 +48,7 @@ const Benefits = () => {
               </Typography>
               <Typography sx={{ color: "grey" }}>
                 Users can explore and interact with realistic 3D models, making
-                the experience more memorable, whilst feeling more involved.
+                the experience more memorable, and feel more involved.
               </Typography>
             </Paper>
           </Grid>
@@ -68,7 +71,7 @@ const Benefits = () => {
                     mb: 2,
                   }}
                 >
-                  <HeadsetIcon color="warning" fontSize="large" />
+                  <VisibilityIcon color="warning" fontSize="large" />
                 </Paper>
               </Stack>
               <Typography
@@ -105,7 +108,7 @@ const Benefits = () => {
                     mb: 2,
                   }}
                 >
-                  <Diversity3Icon color="warning" fontSize="large" />
+                  <EditIcon color="warning" fontSize="large" />
                 </Paper>
               </Stack>
               <Typography
@@ -117,8 +120,9 @@ const Benefits = () => {
                 Innovative Branding
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                There are more innovative ways to represent your brand. This can
-                enhance the appearence from a traditional website.
+                There are more innovative ways to represent your products. This
+                can greatly enhance the appearence compared to a traditional
+                website.
               </Typography>
             </Paper>
           </Grid>
@@ -143,7 +147,7 @@ const Benefits = () => {
                     mb: 2,
                   }}
                 >
-                  <MouseIcon color="warning" fontSize="large" />
+                  <Diversity3Icon color="warning" fontSize="large" />
                 </Paper>
               </Stack>
               <Typography
@@ -155,8 +159,8 @@ const Benefits = () => {
                 Increased visitors
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                Users can explore and interact with realistic 3D models, making
-                the experience more memorable, whilst feeling more involved.
+                The interactive and engaging nature of the site will encourage
+                more users. Once there, they will be more tempted to stay.
               </Typography>
             </Paper>
           </Grid>
@@ -179,7 +183,7 @@ const Benefits = () => {
                     mb: 2,
                   }}
                 >
-                  <HeadsetIcon color="warning" fontSize="large" />
+                  <AutoStoriesIcon color="warning" fontSize="large" />
                 </Paper>
               </Stack>
               <Typography
@@ -188,12 +192,11 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                Amazing storytelling
+                Compelling experiences
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                Products can be represented realistically and viewed from any
-                angle. Complex data can be simplified and shared for a better
-                understanding.
+                Visitors can explore interacive elements providing increased
+                depth and context.
               </Typography>
             </Paper>
           </Grid>
@@ -216,7 +219,7 @@ const Benefits = () => {
                     mb: 2,
                   }}
                 >
-                  <Diversity3Icon color="warning" fontSize="large" />
+                  <EmojiEventsIcon color="warning" fontSize="large" />
                 </Paper>
               </Stack>
               <Typography
@@ -228,8 +231,8 @@ const Benefits = () => {
                 Competitive edge
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                There are more innovative ways to represent your brand. This can
-                enhance the appearence from a traditional website.
+                3D interactive websites can provide a distinct advantage over a
+                more conventional website.
               </Typography>
             </Paper>
           </Grid>
