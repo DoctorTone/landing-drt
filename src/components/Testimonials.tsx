@@ -6,12 +6,12 @@ import Box from "@mui/material/Box";
 const Img = styled("img")({
   margin: "auto",
   display: "block",
-  maxHeight: "100%",
+  width: "100%",
 });
 
 export const Testimonials = () => {
   return (
-    <Box component="div" sx={{ backgroundColor: "black", pt: 1, pb: 2 }}>
+    <Container component="div" sx={{ backgroundColor: "black", pt: 1, pb: 2 }}>
       <Typography variant="h6" sx={{ color: "orange", textAlign: "center" }}>
         A few people that I've helped along the way...
       </Typography>
@@ -24,24 +24,24 @@ export const Testimonials = () => {
           padding: "1.5% 0",
         }}
       >
-        <Grid container sx={{ padding: "2% 0" }}>
-          <Grid item xs={3}>
-            <Img src="./images/logo_uon.png" />
+        <Grid container spacing={5} sx={{ padding: "2%" }}>
+          <Grid item xs={6}>
+            <Img src="./images/logo_uon.png" sx={{ pt: 3 }} />
           </Grid>
-          <Grid item xs={3}>
-            <Img src="./images/iosh-logo.png" />
+          <Grid item xs={6}>
+            <Img src="./images/iosh-logo_scaled.png" />
           </Grid>
-          <Grid item xs={3}>
-            <Img src="./images/ThrillLabLogo.jpg" />
+          <Grid item xs={6}>
+            <Img src="./images/ThrillLabLogo_scaled.jpg" />
           </Grid>
-          <Grid item xs={3}>
-            <Img src="./images/logo_imh2.png" />
+          <Grid item xs={6}>
+            <Img src="./images/logo_imh2_scaled.png" />
           </Grid>
         </Grid>
       </Container>
       <Typography variant="h6" sx={{ color: "grey", textAlign: "center" }}>
         and plenty more to come...
       </Typography>
-    </Box>
+    </Container>
   );
 };

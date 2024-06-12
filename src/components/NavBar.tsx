@@ -38,8 +38,8 @@ const NavBar = () => {
             backgroundColor: "#333333",
             borderRadius: "10px",
             color: "orange",
-            width: "60%",
-            left: "3%",
+            width: "90%",
+            left: "5%",
             marginTop: "10px",
           }}
         >

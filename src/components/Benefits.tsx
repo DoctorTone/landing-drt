@@ -15,8 +15,8 @@ const Benefits = () => {
         <Typography variant="h4" align="center" sx={{ color: "orange", mb: 5 }}>
           Why use 3D technology?
         </Typography>
-        <Grid container spacing={10}>
-          <Grid item xs={6} md={4}>
+        <Grid container spacing={0}>
+          <Grid item xs={12} md={4}>
             <Paper
               sx={{
                 padding: "7.5%",
@@ -52,7 +52,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={6} md={4}>
+          <Grid item xs={12} md={4}>
             <Paper
               sx={{
                 padding: "7.5%",
@@ -89,7 +89,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12}>
             <Paper
               sx={{
                 padding: "7.5%",
@@ -127,8 +127,8 @@ const Benefits = () => {
             </Paper>
           </Grid>
         </Grid>
-        <Grid container spacing={10}>
-          <Grid item xs={4}>
+        <Grid container spacing={0}>
+          <Grid item xs={12}>
             <Paper
               sx={{
                 padding: "7.5%",
@@ -164,7 +164,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12}>
             <Paper
               sx={{
                 padding: "7.5%",
@@ -200,7 +200,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12}>
             <Paper
               sx={{
                 padding: "7.5%",
