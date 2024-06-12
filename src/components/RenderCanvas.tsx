@@ -30,7 +30,7 @@ export const RenderCanvas = () => {
             />
           </mesh>
           <Float>
-            <Text position={[-0.2, -0.35, -0]} />
+            <Text position={[-0.06, -0.35, -0]} />
           </Float>
         </Suspense>
       </Canvas>
@@ -38,7 +38,7 @@ export const RenderCanvas = () => {
         <Typography variant="h3" align="center">
           Unleash the power of 3D.
         </Typography>
-        <Typography variant="h6" align="center" sx={{ color: "darkgrey" }}>
+        <Typography align="center" sx={{ color: "darkgrey" }}>
           More engaging interaction, enhanced user experiences and increased
           sales for your website.
         </Typography>

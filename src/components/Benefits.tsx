@@ -16,7 +16,7 @@ const Benefits = () => {
           Why use 3D technology?
         </Typography>
         <Grid container spacing={10}>
-          <Grid item xs={4}>
+          <Grid item xs={6} md={4}>
             <Paper
               sx={{
                 padding: "7.5%",
@@ -52,7 +52,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={6} md={4}>
             <Paper
               sx={{
                 padding: "7.5%",
