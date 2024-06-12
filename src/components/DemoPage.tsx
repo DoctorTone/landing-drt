@@ -11,7 +11,7 @@ const Img = styled("img")({
   display: "block",
   width: "100%",
   maxHeight: "100%",
-  borderRadius: "20px",
+  borderRadius: "17px",
 });
 
 const DemoPage = () => {
@@ -31,7 +31,13 @@ const DemoPage = () => {
         </Typography>
         <Grid container spacing="10" sx={{ justifyContent: "center" }}>
           <Grid item xs={12} sm={8} md={2}>
-            <Paper sx={{ borderRadius: "20px", mb: 1 }}>
+            <Paper
+              sx={{
+                borderRadius: "20px",
+                mb: 1,
+                backgroundColor: "black",
+              }}
+            >
               <Link
                 href="https://drt-software.com/Demos/Configurator/"
                 target="_blank"
@@ -45,7 +51,13 @@ const DemoPage = () => {
             </Typography>
           </Grid>
           <Grid item xs={12} sm={8} md={2}>
-            <Paper sx={{ borderRadius: "20px", mb: 1 }}>
+            <Paper
+              sx={{
+                borderRadius: "20px",
+                backgroundColor: "black",
+                mb: 1,
+              }}
+            >
               <Link
                 href="https://drt-software.com/Demos/Solar"
                 target="_blank"
@@ -83,7 +95,13 @@ const DemoPage = () => {
             </Typography>
           </Grid>
           <Grid item xs={12} sm={8} md={2}>
-            <Paper sx={{ borderRadius: "20px", mb: 1 }}>
+            <Paper
+              sx={{
+                borderRadius: "20px",
+                mb: 1,
+                backgroundColor: "black",
+              }}
+            >
               <Link
                 href="https://www.drt-software.com/MedicalViz/"
                 target="_blank"
@@ -97,7 +115,13 @@ const DemoPage = () => {
             </Typography>
           </Grid>
           <Grid item xs={12} sm={8} md={2}>
-            <Paper sx={{ borderRadius: "20px", mb: 1 }}>
+            <Paper
+              sx={{
+                borderRadius: "20px",
+                mb: 1,
+                backgroundColor: "black",
+              }}
+            >
               <Link
                 href="https://www.drt-software.com/Portfolio"
                 target="_blank"

@@ -41,11 +41,11 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                Better engagement
+                Enhanced engagement
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                Interacting with realistic looking objects gives customers a
-                better
+                Users can explore and interact with realistic 3D models, making
+                the experience more memorable, whilst feeling more involved.
               </Typography>
             </Paper>
           </Grid>
@@ -77,11 +77,12 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                More immersive
+                Improved visualisation
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                You can take people on an experience, a virtual tour of another
-                world. You can even use virtual reality to take this to the max.
+                Products can be represented realistically and viewed from any
+                angle. Complex data can be simplified and shared for a better
+                understanding.
               </Typography>
             </Paper>
           </Grid>
@@ -113,11 +114,122 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                Increased visitors and sales
+                Innovative Branding
               </Typography>
               <Typography sx={{ color: "grey" }}>
-                Customers can see objects as if they were real on your site, or
-                look at instrucions and see them up close and real.
+                There are more innovative ways to represent your brand. This can
+                enhance the appearence from a traditional website.
+              </Typography>
+            </Paper>
+          </Grid>
+        </Grid>
+        <Grid container spacing={10}>
+          <Grid item xs={4}>
+            <Paper
+              sx={{
+                padding: "7.5%",
+                backgroundColor: "black",
+                borderRadius: "20px",
+                textAlign: "center",
+              }}
+            >
+              <Stack alignItems="center">
+                <Paper
+                  sx={{
+                    width: "25%",
+                    backgroundColor: "#222222",
+                    textAlign: "center",
+                    padding: "5% 0",
+                    mb: 2,
+                  }}
+                >
+                  <MouseIcon color="warning" fontSize="large" />
+                </Paper>
+              </Stack>
+              <Typography
+                variant="h6"
+                align="center"
+                color={"white"}
+                sx={{ mb: 1 }}
+              >
+                Enhanced engagement
+              </Typography>
+              <Typography sx={{ color: "grey" }}>
+                Users can explore and interact with realistic 3D models, making
+                the experience more memorable, whilst feeling more involved.
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={4}>
+            <Paper
+              sx={{
+                padding: "7.5%",
+                backgroundColor: "black",
+                borderRadius: "20px",
+                textAlign: "center",
+              }}
+            >
+              <Stack alignItems="center">
+                <Paper
+                  sx={{
+                    width: "25%",
+                    backgroundColor: "#222222",
+                    textAlign: "center",
+                    padding: "5% 0",
+                    mb: 2,
+                  }}
+                >
+                  <HeadsetIcon color="warning" fontSize="large" />
+                </Paper>
+              </Stack>
+              <Typography
+                variant="h6"
+                align="center"
+                color={"white"}
+                sx={{ mb: 1 }}
+              >
+                Improved visualisation
+              </Typography>
+              <Typography sx={{ color: "grey" }}>
+                Products can be represented realistically and viewed from any
+                angle. Complex data can be simplified and shared for a better
+                understanding.
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={4}>
+            <Paper
+              sx={{
+                padding: "7.5%",
+                backgroundColor: "black",
+                borderRadius: "20px",
+                textAlign: "center",
+              }}
+            >
+              <Stack alignItems="center">
+                <Paper
+                  sx={{
+                    width: "25%",
+                    backgroundColor: "#222222",
+                    textAlign: "center",
+                    padding: "5% 0",
+                    mb: 2,
+                  }}
+                >
+                  <Diversity3Icon color="warning" fontSize="large" />
+                </Paper>
+              </Stack>
+              <Typography
+                variant="h6"
+                align="center"
+                color={"white"}
+                sx={{ mb: 1 }}
+              >
+                Innovative Branding
+              </Typography>
+              <Typography sx={{ color: "grey" }}>
+                There are more innovative ways to represent your brand. This can
+                enhance the appearence from a traditional website.
               </Typography>
             </Paper>
           </Grid>

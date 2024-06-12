@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <Box
       component="div"
-      sx={{ pt: 3, pb: 5, backgroundColor: "#222222", color: "orange" }}
+      sx={{ pt: 3, pb: 5, backgroundColor: "black", color: "orange" }}
     >
       <Box component="div" sx={{ display: { xs: "block", md: "none" } }}>
         <Stack alignItems="center" sx={{ mb: 2 }}>

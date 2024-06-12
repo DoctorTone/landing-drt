@@ -162,7 +162,7 @@ const NavBar = () => {
                 target="_blank"
                 variant="contained"
               >
-                Schedule call
+                Schedule a call
               </Button>
             </Box>
           </Toolbar>
