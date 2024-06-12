@@ -11,9 +11,17 @@ canvas {
   margin: 0;
   padding: 0;
 }
+.panel {
+  position: absolute;
+}
 .orangeText {
   color: #ed6c02;
 }
 .sticky {
   position: sticky;
+}
+#title {
+  top: 17.5%;
+  left: 0%;
+  width: 100%;
 }

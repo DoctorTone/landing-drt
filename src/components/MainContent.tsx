@@ -6,16 +6,7 @@ import { RenderCanvas } from "./RenderCanvas";
 
 const MainContent = () => {
   return (
-    <Container sx={{ mt: 25, mb: 5 }}>
-      <Box component="div">
-        <Typography variant="h3" align="center">
-          Unleash the power of 3D.
-        </Typography>
-        <Typography variant="h6" align="center" sx={{ color: "grey" }}>
-          More engaging interaction, enhanced user experiences and increased
-          sales for your website.
-        </Typography>
-      </Box>
+    <Container sx={{ mt: 20, mb: 5 }}>
       <Box component="div">
         <Grid
           container
