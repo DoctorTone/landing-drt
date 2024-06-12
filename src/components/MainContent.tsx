@@ -6,7 +6,7 @@ import { RenderCanvas } from "./RenderCanvas";
 
 const MainContent = () => {
   return (
-    <Container sx={{ mt: 20, mb: 5 }}>
+    <Container sx={{ mt: 25, mb: 5 }}>
       <Box component="div">
         <Grid
           container

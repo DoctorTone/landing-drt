@@ -10,16 +10,16 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 const Benefits = () => {
   return (
-    <Box component="div" sx={{ backgroundColor: "black", pt: 5, pb: 5 }}>
+    <Box component="div" sx={{ backgroundColor: "black" }}>
       <Container>
-        <Typography variant="h4" align="center" sx={{ color: "orange", mb: 5 }}>
-          Why use 3D technology?
+        <Typography variant="h4" align="center" sx={{ color: "orange", mb: 1 }}>
+          Why use 3D?
         </Typography>
         <Grid container spacing={0}>
           <Grid item xs={12} md={4}>
             <Paper
               sx={{
-                padding: "7.5%",
+                padding: "2.5% 7.5%",
                 backgroundColor: "black",
                 borderRadius: "20px",
                 textAlign: "center",
@@ -55,7 +55,7 @@ const Benefits = () => {
           <Grid item xs={12} md={4}>
             <Paper
               sx={{
-                padding: "7.5%",
+                padding: "2.5% 7.5%",
                 backgroundColor: "black",
                 borderRadius: "20px",
                 textAlign: "center",
@@ -92,7 +92,7 @@ const Benefits = () => {
           <Grid item xs={12}>
             <Paper
               sx={{
-                padding: "7.5%",
+                padding: "2.5% 7.5%",
                 backgroundColor: "black",
                 borderRadius: "20px",
                 textAlign: "center",
@@ -131,7 +131,7 @@ const Benefits = () => {
           <Grid item xs={12}>
             <Paper
               sx={{
-                padding: "7.5%",
+                padding: "2.5% 7.5%",
                 backgroundColor: "black",
                 borderRadius: "20px",
                 textAlign: "center",
@@ -167,7 +167,7 @@ const Benefits = () => {
           <Grid item xs={12}>
             <Paper
               sx={{
-                padding: "7.5%",
+                padding: "2.5% 7.5%",
                 backgroundColor: "black",
                 borderRadius: "20px",
                 textAlign: "center",
@@ -203,7 +203,7 @@ const Benefits = () => {
           <Grid item xs={12}>
             <Paper
               sx={{
-                padding: "7.5%",
+                padding: "2.5% 7.5%",
                 backgroundColor: "black",
                 borderRadius: "20px",
                 textAlign: "center",
