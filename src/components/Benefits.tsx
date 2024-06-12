@@ -7,7 +7,7 @@ import Diversity3Icon from "@mui/icons-material/Diversity3";
 
 const Benefits = () => {
   return (
-    <Box component="div" sx={{ backgroundColor: "#333333", pt: 5, pb: 5 }}>
+    <Box component="div" sx={{ backgroundColor: "black", pt: 5, pb: 5 }}>
       <Container>
         <Typography variant="h4" align="center" sx={{ color: "orange", mb: 5 }}>
           Why use 3D technology?
