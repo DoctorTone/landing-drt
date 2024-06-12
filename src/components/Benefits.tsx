@@ -152,7 +152,7 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                Enhanced engagement
+                Increased visitors
               </Typography>
               <Typography sx={{ color: "grey" }}>
                 Users can explore and interact with realistic 3D models, making
@@ -188,7 +188,7 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                Improved visualisation
+                Amazing storytelling
               </Typography>
               <Typography sx={{ color: "grey" }}>
                 Products can be represented realistically and viewed from any
@@ -225,7 +225,7 @@ const Benefits = () => {
                 color={"white"}
                 sx={{ mb: 1 }}
               >
-                Innovative Branding
+                Competitive edge
               </Typography>
               <Typography sx={{ color: "grey" }}>
                 There are more innovative ways to represent your brand. This can
