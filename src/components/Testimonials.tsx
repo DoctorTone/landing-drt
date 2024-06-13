@@ -24,17 +24,17 @@ export const Testimonials = () => {
           padding: "1.5% 0",
         }}
       >
-        <Grid container spacing={5} sx={{ padding: "2%" }}>
-          <Grid item xs={6}>
-            <Img src="./images/logo_uon.png" sx={{ pt: 3 }} />
+        <Grid container spacing={5} alignItems="center" sx={{ padding: "2%" }}>
+          <Grid item xs={6} sm={3}>
+            <Img src="./images/logo_uon.png" />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} sm={3}>
             <Img src="./images/iosh-logo_scaled.png" />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} sm={3}>
             <Img src="./images/ThrillLabLogo_scaled.jpg" />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} sm={3}>
             <Img src="./images/logo_imh2_scaled.png" />
           </Grid>
         </Grid>
