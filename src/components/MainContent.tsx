@@ -1,7 +1,6 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { Container, Typography } from "@mui/material";
-import DoneIcon from "@mui/icons-material/Done";
 import { RenderCanvas } from "./RenderCanvas";
 
 const MainContent = () => {

@@ -1,7 +1,6 @@
 import { styled } from "@mui/material/styles";
 import { Container, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
 
 const Img = styled("img")({
   margin: "auto",
