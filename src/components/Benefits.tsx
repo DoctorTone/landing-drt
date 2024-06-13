@@ -16,7 +16,7 @@ const Benefits = () => {
           Why use 3D?
         </Typography>
         <Grid container spacing={0}>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Paper
               sx={{
                 padding: "2.5% 7.5%",
@@ -52,7 +52,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Paper
               sx={{
                 padding: "2.5% 7.5%",
@@ -89,7 +89,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={12} sm={6} md={4}>
             <Paper
               sx={{
                 padding: "2.5% 7.5%",
@@ -126,9 +126,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-        </Grid>
-        <Grid container spacing={0}>
-          <Grid item xs={12}>
+          <Grid item xs={12} sm={6} md={4}>
             <Paper
               sx={{
                 padding: "2.5% 7.5%",
@@ -164,7 +162,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={12} sm={6} md={4}>
             <Paper
               sx={{
                 padding: "2.5% 7.5%",
@@ -200,7 +198,7 @@ const Benefits = () => {
               </Typography>
             </Paper>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={12} sm={6} md={4}>
             <Paper
               sx={{
                 padding: "2.5% 7.5%",
