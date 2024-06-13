@@ -25,3 +25,11 @@ canvas {
   left: 0%;
   width: 100%;
 }
+@media (min-width: 768px) and (orientation: landscape) {
+  #title {
+    top: 30%;
+  }
+  canvas {
+    height: 75vh;
+  }
+}
