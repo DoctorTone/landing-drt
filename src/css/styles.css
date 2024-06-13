@@ -25,9 +25,41 @@ canvas {
   left: 0%;
   width: 100%;
 }
+@media (min-width: 768px) {
+  #title {
+    top: 17.5%;
+  }
+  canvas {
+    height: 60vh;
+  }
+}
 @media (min-width: 768px) and (orientation: landscape) {
   #title {
     top: 30%;
+  }
+  canvas {
+    height: 75vh;
+  }
+}
+@media (min-width: 900px) {
+  #title {
+    top: 27.5%;
+  }
+  canvas {
+    height: 65vh;
+  }
+}
+@media (min-width: 1200px) {
+  #title {
+    top: 27.5%;
+  }
+  canvas {
+    height: 70vh;
+  }
+}
+@media (min-width: 1500px) {
+  #title {
+    top: 25%;
   }
   canvas {
     height: 75vh;

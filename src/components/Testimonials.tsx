@@ -29,7 +29,7 @@ export const Testimonials = () => {
             <Img src="./images/logo_uon.png" />
           </Grid>
           <Grid item xs={6} sm={3}>
-            <Img src="./images/iosh-logo_scaled.png" />
+            <Img src="./images/iosh.png" />
           </Grid>
           <Grid item xs={6} sm={3}>
             <Img src="./images/ThrillLabLogo_scaled.jpg" />

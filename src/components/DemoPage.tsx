@@ -16,8 +16,8 @@ const Img = styled("img")({
 
 const DemoPage = () => {
   return (
-    <Box component="div" sx={{ backgroundColor: "black" }}>
-      <Container sx={{ mb: 4 }} maxWidth="xl">
+    <Box component="div" sx={{ backgroundColor: "black", mb: 10 }}>
+      <Container>
         <Typography
           sx={{ mb: 1, color: "orange" }}
           textAlign="center"
