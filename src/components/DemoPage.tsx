@@ -72,9 +72,13 @@ const DemoPage = () => {
           </Grid>
           <Grid item xs={12} sm={8} md={2}>
             <Paper sx={{ borderRadius: "20px", mb: 1 }}>
-              {/* <Link href=""> */}
-              <Img src="./images/museum.jpg" />
-              {/* </Link> */}
+              <Link
+                href="https://youtu.be/iM7GL6MC7M4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Img src="./images/museum.jpg" />
+              </Link>
             </Paper>
             <Typography variant="h6" sx={{ textAlign: "center", mb: 1 }}>
               Virtual Exhibits
