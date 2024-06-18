@@ -35,7 +35,7 @@ const NavBar = () => {
           className="sticky"
           elevation={0}
           sx={{
-            backgroundColor: "#333333",
+            backgroundColor: "black",
             borderRadius: "10px",
             color: "orange",
             width: { xs: "90%", sm: "70%", md: "90%", lg: "75%" },
